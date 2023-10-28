@@ -1,0 +1,15 @@
+C:\Users\Tomek\Desktop\Polski SPOJ\prosteDodawanie\prosteDodawanie\bin\Debug\net6.0\prosteDodawanie.exe
+C:\Users\Tomek\Desktop\Polski SPOJ\prosteDodawanie\prosteDodawanie\bin\Debug\net6.0\prosteDodawanie.deps.json
+C:\Users\Tomek\Desktop\Polski SPOJ\prosteDodawanie\prosteDodawanie\bin\Debug\net6.0\prosteDodawanie.runtimeconfig.json
+C:\Users\Tomek\Desktop\Polski SPOJ\prosteDodawanie\prosteDodawanie\bin\Debug\net6.0\prosteDodawanie.dll
+C:\Users\Tomek\Desktop\Polski SPOJ\prosteDodawanie\prosteDodawanie\bin\Debug\net6.0\prosteDodawanie.pdb
+C:\Users\Tomek\Desktop\Polski SPOJ\prosteDodawanie\prosteDodawanie\obj\Debug\net6.0\prosteDodawanie.csproj.AssemblyReference.cache
+C:\Users\Tomek\Desktop\Polski SPOJ\prosteDodawanie\prosteDodawanie\obj\Debug\net6.0\prosteDodawanie.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tomek\Desktop\Polski SPOJ\prosteDodawanie\prosteDodawanie\obj\Debug\net6.0\prosteDodawanie.AssemblyInfoInputs.cache
+C:\Users\Tomek\Desktop\Polski SPOJ\prosteDodawanie\prosteDodawanie\obj\Debug\net6.0\prosteDodawanie.AssemblyInfo.cs
+C:\Users\Tomek\Desktop\Polski SPOJ\prosteDodawanie\prosteDodawanie\obj\Debug\net6.0\prosteDodawanie.csproj.CoreCompileInputs.cache
+C:\Users\Tomek\Desktop\Polski SPOJ\prosteDodawanie\prosteDodawanie\obj\Debug\net6.0\prosteDodawanie.dll
+C:\Users\Tomek\Desktop\Polski SPOJ\prosteDodawanie\prosteDodawanie\obj\Debug\net6.0\refint\prosteDodawanie.dll
+C:\Users\Tomek\Desktop\Polski SPOJ\prosteDodawanie\prosteDodawanie\obj\Debug\net6.0\prosteDodawanie.pdb
+C:\Users\Tomek\Desktop\Polski SPOJ\prosteDodawanie\prosteDodawanie\obj\Debug\net6.0\prosteDodawanie.genruntimeconfig.cache
+C:\Users\Tomek\Desktop\Polski SPOJ\prosteDodawanie\prosteDodawanie\obj\Debug\net6.0\ref\prosteDodawanie.dll

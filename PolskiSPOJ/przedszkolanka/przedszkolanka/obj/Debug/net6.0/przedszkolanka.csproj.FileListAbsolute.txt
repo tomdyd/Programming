@@ -1,0 +1,15 @@
+C:\Users\Tomek\Desktop\Polski SPOJ\przedszkolanka\przedszkolanka\obj\Debug\net6.0\przedszkolanka.csproj.AssemblyReference.cache
+C:\Users\Tomek\Desktop\Polski SPOJ\przedszkolanka\przedszkolanka\obj\Debug\net6.0\przedszkolanka.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tomek\Desktop\Polski SPOJ\przedszkolanka\przedszkolanka\obj\Debug\net6.0\przedszkolanka.AssemblyInfoInputs.cache
+C:\Users\Tomek\Desktop\Polski SPOJ\przedszkolanka\przedszkolanka\obj\Debug\net6.0\przedszkolanka.AssemblyInfo.cs
+C:\Users\Tomek\Desktop\Polski SPOJ\przedszkolanka\przedszkolanka\obj\Debug\net6.0\przedszkolanka.csproj.CoreCompileInputs.cache
+C:\Users\Tomek\Desktop\Polski SPOJ\przedszkolanka\przedszkolanka\bin\Debug\net6.0\przedszkolanka.exe
+C:\Users\Tomek\Desktop\Polski SPOJ\przedszkolanka\przedszkolanka\bin\Debug\net6.0\przedszkolanka.deps.json
+C:\Users\Tomek\Desktop\Polski SPOJ\przedszkolanka\przedszkolanka\bin\Debug\net6.0\przedszkolanka.runtimeconfig.json
+C:\Users\Tomek\Desktop\Polski SPOJ\przedszkolanka\przedszkolanka\bin\Debug\net6.0\przedszkolanka.dll
+C:\Users\Tomek\Desktop\Polski SPOJ\przedszkolanka\przedszkolanka\bin\Debug\net6.0\przedszkolanka.pdb
+C:\Users\Tomek\Desktop\Polski SPOJ\przedszkolanka\przedszkolanka\obj\Debug\net6.0\przedszkolanka.dll
+C:\Users\Tomek\Desktop\Polski SPOJ\przedszkolanka\przedszkolanka\obj\Debug\net6.0\refint\przedszkolanka.dll
+C:\Users\Tomek\Desktop\Polski SPOJ\przedszkolanka\przedszkolanka\obj\Debug\net6.0\przedszkolanka.pdb
+C:\Users\Tomek\Desktop\Polski SPOJ\przedszkolanka\przedszkolanka\obj\Debug\net6.0\przedszkolanka.genruntimeconfig.cache
+C:\Users\Tomek\Desktop\Polski SPOJ\przedszkolanka\przedszkolanka\obj\Debug\net6.0\ref\przedszkolanka.dll

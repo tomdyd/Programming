@@ -1,0 +1,15 @@
+C:\Users\Tomek\Desktop\Polski SPOJ\obzartuchy\obzartuchy\bin\Debug\net6.0\obzartuchy.exe
+C:\Users\Tomek\Desktop\Polski SPOJ\obzartuchy\obzartuchy\bin\Debug\net6.0\obzartuchy.deps.json
+C:\Users\Tomek\Desktop\Polski SPOJ\obzartuchy\obzartuchy\bin\Debug\net6.0\obzartuchy.runtimeconfig.json
+C:\Users\Tomek\Desktop\Polski SPOJ\obzartuchy\obzartuchy\bin\Debug\net6.0\obzartuchy.dll
+C:\Users\Tomek\Desktop\Polski SPOJ\obzartuchy\obzartuchy\bin\Debug\net6.0\obzartuchy.pdb
+C:\Users\Tomek\Desktop\Polski SPOJ\obzartuchy\obzartuchy\obj\Debug\net6.0\obzartuchy.csproj.AssemblyReference.cache
+C:\Users\Tomek\Desktop\Polski SPOJ\obzartuchy\obzartuchy\obj\Debug\net6.0\obzartuchy.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tomek\Desktop\Polski SPOJ\obzartuchy\obzartuchy\obj\Debug\net6.0\obzartuchy.AssemblyInfoInputs.cache
+C:\Users\Tomek\Desktop\Polski SPOJ\obzartuchy\obzartuchy\obj\Debug\net6.0\obzartuchy.AssemblyInfo.cs
+C:\Users\Tomek\Desktop\Polski SPOJ\obzartuchy\obzartuchy\obj\Debug\net6.0\obzartuchy.csproj.CoreCompileInputs.cache
+C:\Users\Tomek\Desktop\Polski SPOJ\obzartuchy\obzartuchy\obj\Debug\net6.0\obzartuchy.dll
+C:\Users\Tomek\Desktop\Polski SPOJ\obzartuchy\obzartuchy\obj\Debug\net6.0\refint\obzartuchy.dll
+C:\Users\Tomek\Desktop\Polski SPOJ\obzartuchy\obzartuchy\obj\Debug\net6.0\obzartuchy.pdb
+C:\Users\Tomek\Desktop\Polski SPOJ\obzartuchy\obzartuchy\obj\Debug\net6.0\obzartuchy.genruntimeconfig.cache
+C:\Users\Tomek\Desktop\Polski SPOJ\obzartuchy\obzartuchy\obj\Debug\net6.0\ref\obzartuchy.dll

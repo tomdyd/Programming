@@ -1,0 +1,15 @@
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\próba\próba\bin\Debug\net6.0\próba.exe
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\próba\próba\bin\Debug\net6.0\próba.deps.json
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\próba\próba\bin\Debug\net6.0\próba.runtimeconfig.json
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\próba\próba\bin\Debug\net6.0\próba.dll
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\próba\próba\bin\Debug\net6.0\próba.pdb
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\próba\próba\obj\Debug\net6.0\próba.csproj.AssemblyReference.cache
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\próba\próba\obj\Debug\net6.0\próba.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\próba\próba\obj\Debug\net6.0\próba.AssemblyInfoInputs.cache
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\próba\próba\obj\Debug\net6.0\próba.AssemblyInfo.cs
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\próba\próba\obj\Debug\net6.0\próba.csproj.CoreCompileInputs.cache
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\próba\próba\obj\Debug\net6.0\próba.dll
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\próba\próba\obj\Debug\net6.0\refint\próba.dll
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\próba\próba\obj\Debug\net6.0\próba.pdb
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\próba\próba\obj\Debug\net6.0\próba.genruntimeconfig.cache
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\próba\próba\obj\Debug\net6.0\ref\próba.dll

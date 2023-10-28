@@ -1,0 +1,15 @@
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\silniaParametrDodatkowy\silniaParametrDodatkowy\bin\Debug\net6.0\silniaParametrDodatkowy.exe
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\silniaParametrDodatkowy\silniaParametrDodatkowy\bin\Debug\net6.0\silniaParametrDodatkowy.deps.json
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\silniaParametrDodatkowy\silniaParametrDodatkowy\bin\Debug\net6.0\silniaParametrDodatkowy.runtimeconfig.json
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\silniaParametrDodatkowy\silniaParametrDodatkowy\bin\Debug\net6.0\silniaParametrDodatkowy.dll
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\silniaParametrDodatkowy\silniaParametrDodatkowy\bin\Debug\net6.0\silniaParametrDodatkowy.pdb
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\silniaParametrDodatkowy\silniaParametrDodatkowy\obj\Debug\net6.0\silniaParametrDodatkowy.csproj.AssemblyReference.cache
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\silniaParametrDodatkowy\silniaParametrDodatkowy\obj\Debug\net6.0\silniaParametrDodatkowy.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\silniaParametrDodatkowy\silniaParametrDodatkowy\obj\Debug\net6.0\silniaParametrDodatkowy.AssemblyInfoInputs.cache
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\silniaParametrDodatkowy\silniaParametrDodatkowy\obj\Debug\net6.0\silniaParametrDodatkowy.AssemblyInfo.cs
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\silniaParametrDodatkowy\silniaParametrDodatkowy\obj\Debug\net6.0\silniaParametrDodatkowy.csproj.CoreCompileInputs.cache
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\silniaParametrDodatkowy\silniaParametrDodatkowy\obj\Debug\net6.0\silniaParametrDodatkowy.dll
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\silniaParametrDodatkowy\silniaParametrDodatkowy\obj\Debug\net6.0\refint\silniaParametrDodatkowy.dll
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\silniaParametrDodatkowy\silniaParametrDodatkowy\obj\Debug\net6.0\silniaParametrDodatkowy.pdb
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\silniaParametrDodatkowy\silniaParametrDodatkowy\obj\Debug\net6.0\silniaParametrDodatkowy.genruntimeconfig.cache
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\silniaParametrDodatkowy\silniaParametrDodatkowy\obj\Debug\net6.0\ref\silniaParametrDodatkowy.dll

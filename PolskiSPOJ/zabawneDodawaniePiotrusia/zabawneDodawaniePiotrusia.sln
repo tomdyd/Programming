@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zabawneDodawaniePiotrusia", "zabawneDodawaniePiotrusia\zabawneDodawaniePiotrusia.csproj", "{1640ED29-9EFD-4C27-8D61-7B8AEBC28D85}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1640ED29-9EFD-4C27-8D61-7B8AEBC28D85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1640ED29-9EFD-4C27-8D61-7B8AEBC28D85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1640ED29-9EFD-4C27-8D61-7B8AEBC28D85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1640ED29-9EFD-4C27-8D61-7B8AEBC28D85}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2970874B-A642-46C6-8AA4-196C0155A8A4}
+	EndGlobalSection
+EndGlobal

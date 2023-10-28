@@ -1,0 +1,15 @@
+C:\Users\Tomek\Desktop\Kurs programowania C#\Test\NewOfficeProject\NewOfficeProject\obj\Debug\net6.0\NewOfficeProject.csproj.AssemblyReference.cache
+C:\Users\Tomek\Desktop\Kurs programowania C#\Test\NewOfficeProject\NewOfficeProject\obj\Debug\net6.0\NewOfficeProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tomek\Desktop\Kurs programowania C#\Test\NewOfficeProject\NewOfficeProject\obj\Debug\net6.0\NewOfficeProject.AssemblyInfoInputs.cache
+C:\Users\Tomek\Desktop\Kurs programowania C#\Test\NewOfficeProject\NewOfficeProject\obj\Debug\net6.0\NewOfficeProject.AssemblyInfo.cs
+C:\Users\Tomek\Desktop\Kurs programowania C#\Test\NewOfficeProject\NewOfficeProject\obj\Debug\net6.0\NewOfficeProject.csproj.CoreCompileInputs.cache
+C:\Users\Tomek\Desktop\Kurs programowania C#\Test\NewOfficeProject\NewOfficeProject\bin\Debug\net6.0\NewOfficeProject.exe
+C:\Users\Tomek\Desktop\Kurs programowania C#\Test\NewOfficeProject\NewOfficeProject\bin\Debug\net6.0\NewOfficeProject.deps.json
+C:\Users\Tomek\Desktop\Kurs programowania C#\Test\NewOfficeProject\NewOfficeProject\bin\Debug\net6.0\NewOfficeProject.runtimeconfig.json
+C:\Users\Tomek\Desktop\Kurs programowania C#\Test\NewOfficeProject\NewOfficeProject\bin\Debug\net6.0\NewOfficeProject.dll
+C:\Users\Tomek\Desktop\Kurs programowania C#\Test\NewOfficeProject\NewOfficeProject\bin\Debug\net6.0\NewOfficeProject.pdb
+C:\Users\Tomek\Desktop\Kurs programowania C#\Test\NewOfficeProject\NewOfficeProject\obj\Debug\net6.0\NewOfficeProject.dll
+C:\Users\Tomek\Desktop\Kurs programowania C#\Test\NewOfficeProject\NewOfficeProject\obj\Debug\net6.0\refint\NewOfficeProject.dll
+C:\Users\Tomek\Desktop\Kurs programowania C#\Test\NewOfficeProject\NewOfficeProject\obj\Debug\net6.0\NewOfficeProject.pdb
+C:\Users\Tomek\Desktop\Kurs programowania C#\Test\NewOfficeProject\NewOfficeProject\obj\Debug\net6.0\NewOfficeProject.genruntimeconfig.cache
+C:\Users\Tomek\Desktop\Kurs programowania C#\Test\NewOfficeProject\NewOfficeProject\obj\Debug\net6.0\ref\NewOfficeProject.dll

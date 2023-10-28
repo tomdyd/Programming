@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "przedszkolanka", "przedszkolanka\przedszkolanka.csproj", "{CA2FA3C2-8AC0-47EC-BC81-684409C33744}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA2FA3C2-8AC0-47EC-BC81-684409C33744}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA2FA3C2-8AC0-47EC-BC81-684409C33744}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA2FA3C2-8AC0-47EC-BC81-684409C33744}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA2FA3C2-8AC0-47EC-BC81-684409C33744}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5B9EE33A-CC9B-4693-BDB0-A1B423CA60C7}
+	EndGlobalSection
+EndGlobal

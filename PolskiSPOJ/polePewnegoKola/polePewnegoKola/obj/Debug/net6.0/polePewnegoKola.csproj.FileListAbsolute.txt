@@ -1,0 +1,15 @@
+C:\Users\Tomek\Desktop\Polski SPOJ\polePewnegoKola\polePewnegoKola\bin\Debug\net6.0\polePewnegoKola.exe
+C:\Users\Tomek\Desktop\Polski SPOJ\polePewnegoKola\polePewnegoKola\bin\Debug\net6.0\polePewnegoKola.deps.json
+C:\Users\Tomek\Desktop\Polski SPOJ\polePewnegoKola\polePewnegoKola\bin\Debug\net6.0\polePewnegoKola.runtimeconfig.json
+C:\Users\Tomek\Desktop\Polski SPOJ\polePewnegoKola\polePewnegoKola\bin\Debug\net6.0\polePewnegoKola.dll
+C:\Users\Tomek\Desktop\Polski SPOJ\polePewnegoKola\polePewnegoKola\bin\Debug\net6.0\polePewnegoKola.pdb
+C:\Users\Tomek\Desktop\Polski SPOJ\polePewnegoKola\polePewnegoKola\obj\Debug\net6.0\polePewnegoKola.csproj.AssemblyReference.cache
+C:\Users\Tomek\Desktop\Polski SPOJ\polePewnegoKola\polePewnegoKola\obj\Debug\net6.0\polePewnegoKola.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tomek\Desktop\Polski SPOJ\polePewnegoKola\polePewnegoKola\obj\Debug\net6.0\polePewnegoKola.AssemblyInfoInputs.cache
+C:\Users\Tomek\Desktop\Polski SPOJ\polePewnegoKola\polePewnegoKola\obj\Debug\net6.0\polePewnegoKola.AssemblyInfo.cs
+C:\Users\Tomek\Desktop\Polski SPOJ\polePewnegoKola\polePewnegoKola\obj\Debug\net6.0\polePewnegoKola.csproj.CoreCompileInputs.cache
+C:\Users\Tomek\Desktop\Polski SPOJ\polePewnegoKola\polePewnegoKola\obj\Debug\net6.0\polePewnegoKola.dll
+C:\Users\Tomek\Desktop\Polski SPOJ\polePewnegoKola\polePewnegoKola\obj\Debug\net6.0\refint\polePewnegoKola.dll
+C:\Users\Tomek\Desktop\Polski SPOJ\polePewnegoKola\polePewnegoKola\obj\Debug\net6.0\polePewnegoKola.pdb
+C:\Users\Tomek\Desktop\Polski SPOJ\polePewnegoKola\polePewnegoKola\obj\Debug\net6.0\polePewnegoKola.genruntimeconfig.cache
+C:\Users\Tomek\Desktop\Polski SPOJ\polePewnegoKola\polePewnegoKola\obj\Debug\net6.0\ref\polePewnegoKola.dll

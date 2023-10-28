@@ -1,0 +1,15 @@
+C:\Users\Tomek\Desktop\Polski SPOJ\tablicePrzekatne\tablicePrzekatne\bin\Debug\net6.0\tablicePrzekatne.exe
+C:\Users\Tomek\Desktop\Polski SPOJ\tablicePrzekatne\tablicePrzekatne\bin\Debug\net6.0\tablicePrzekatne.deps.json
+C:\Users\Tomek\Desktop\Polski SPOJ\tablicePrzekatne\tablicePrzekatne\bin\Debug\net6.0\tablicePrzekatne.runtimeconfig.json
+C:\Users\Tomek\Desktop\Polski SPOJ\tablicePrzekatne\tablicePrzekatne\bin\Debug\net6.0\tablicePrzekatne.dll
+C:\Users\Tomek\Desktop\Polski SPOJ\tablicePrzekatne\tablicePrzekatne\bin\Debug\net6.0\tablicePrzekatne.pdb
+C:\Users\Tomek\Desktop\Polski SPOJ\tablicePrzekatne\tablicePrzekatne\obj\Debug\net6.0\tablicePrzekatne.csproj.AssemblyReference.cache
+C:\Users\Tomek\Desktop\Polski SPOJ\tablicePrzekatne\tablicePrzekatne\obj\Debug\net6.0\tablicePrzekatne.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tomek\Desktop\Polski SPOJ\tablicePrzekatne\tablicePrzekatne\obj\Debug\net6.0\tablicePrzekatne.AssemblyInfoInputs.cache
+C:\Users\Tomek\Desktop\Polski SPOJ\tablicePrzekatne\tablicePrzekatne\obj\Debug\net6.0\tablicePrzekatne.AssemblyInfo.cs
+C:\Users\Tomek\Desktop\Polski SPOJ\tablicePrzekatne\tablicePrzekatne\obj\Debug\net6.0\tablicePrzekatne.csproj.CoreCompileInputs.cache
+C:\Users\Tomek\Desktop\Polski SPOJ\tablicePrzekatne\tablicePrzekatne\obj\Debug\net6.0\tablicePrzekatne.dll
+C:\Users\Tomek\Desktop\Polski SPOJ\tablicePrzekatne\tablicePrzekatne\obj\Debug\net6.0\refint\tablicePrzekatne.dll
+C:\Users\Tomek\Desktop\Polski SPOJ\tablicePrzekatne\tablicePrzekatne\obj\Debug\net6.0\tablicePrzekatne.pdb
+C:\Users\Tomek\Desktop\Polski SPOJ\tablicePrzekatne\tablicePrzekatne\obj\Debug\net6.0\tablicePrzekatne.genruntimeconfig.cache
+C:\Users\Tomek\Desktop\Polski SPOJ\tablicePrzekatne\tablicePrzekatne\obj\Debug\net6.0\ref\tablicePrzekatne.dll

@@ -1,0 +1,15 @@
+C:\Users\Tomek\Desktop\Kurs programowania C#\RegEx\RegEx\bin\Debug\net6.0\RegEx.exe
+C:\Users\Tomek\Desktop\Kurs programowania C#\RegEx\RegEx\bin\Debug\net6.0\RegEx.deps.json
+C:\Users\Tomek\Desktop\Kurs programowania C#\RegEx\RegEx\bin\Debug\net6.0\RegEx.runtimeconfig.json
+C:\Users\Tomek\Desktop\Kurs programowania C#\RegEx\RegEx\bin\Debug\net6.0\RegEx.dll
+C:\Users\Tomek\Desktop\Kurs programowania C#\RegEx\RegEx\bin\Debug\net6.0\RegEx.pdb
+C:\Users\Tomek\Desktop\Kurs programowania C#\RegEx\RegEx\obj\Debug\net6.0\RegEx.csproj.AssemblyReference.cache
+C:\Users\Tomek\Desktop\Kurs programowania C#\RegEx\RegEx\obj\Debug\net6.0\RegEx.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tomek\Desktop\Kurs programowania C#\RegEx\RegEx\obj\Debug\net6.0\RegEx.AssemblyInfoInputs.cache
+C:\Users\Tomek\Desktop\Kurs programowania C#\RegEx\RegEx\obj\Debug\net6.0\RegEx.AssemblyInfo.cs
+C:\Users\Tomek\Desktop\Kurs programowania C#\RegEx\RegEx\obj\Debug\net6.0\RegEx.csproj.CoreCompileInputs.cache
+C:\Users\Tomek\Desktop\Kurs programowania C#\RegEx\RegEx\obj\Debug\net6.0\RegEx.dll
+C:\Users\Tomek\Desktop\Kurs programowania C#\RegEx\RegEx\obj\Debug\net6.0\refint\RegEx.dll
+C:\Users\Tomek\Desktop\Kurs programowania C#\RegEx\RegEx\obj\Debug\net6.0\RegEx.pdb
+C:\Users\Tomek\Desktop\Kurs programowania C#\RegEx\RegEx\obj\Debug\net6.0\RegEx.genruntimeconfig.cache
+C:\Users\Tomek\Desktop\Kurs programowania C#\RegEx\RegEx\obj\Debug\net6.0\ref\RegEx.dll

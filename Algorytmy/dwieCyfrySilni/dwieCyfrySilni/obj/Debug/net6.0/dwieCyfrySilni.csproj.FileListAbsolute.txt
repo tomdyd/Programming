@@ -1,0 +1,15 @@
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\dwieCyfrySilni\dwieCyfrySilni\bin\Debug\net6.0\dwieCyfrySilni.exe
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\dwieCyfrySilni\dwieCyfrySilni\bin\Debug\net6.0\dwieCyfrySilni.deps.json
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\dwieCyfrySilni\dwieCyfrySilni\bin\Debug\net6.0\dwieCyfrySilni.runtimeconfig.json
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\dwieCyfrySilni\dwieCyfrySilni\bin\Debug\net6.0\dwieCyfrySilni.dll
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\dwieCyfrySilni\dwieCyfrySilni\bin\Debug\net6.0\dwieCyfrySilni.pdb
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\dwieCyfrySilni\dwieCyfrySilni\obj\Debug\net6.0\dwieCyfrySilni.csproj.AssemblyReference.cache
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\dwieCyfrySilni\dwieCyfrySilni\obj\Debug\net6.0\dwieCyfrySilni.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\dwieCyfrySilni\dwieCyfrySilni\obj\Debug\net6.0\dwieCyfrySilni.AssemblyInfoInputs.cache
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\dwieCyfrySilni\dwieCyfrySilni\obj\Debug\net6.0\dwieCyfrySilni.AssemblyInfo.cs
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\dwieCyfrySilni\dwieCyfrySilni\obj\Debug\net6.0\dwieCyfrySilni.csproj.CoreCompileInputs.cache
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\dwieCyfrySilni\dwieCyfrySilni\obj\Debug\net6.0\dwieCyfrySilni.dll
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\dwieCyfrySilni\dwieCyfrySilni\obj\Debug\net6.0\refint\dwieCyfrySilni.dll
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\dwieCyfrySilni\dwieCyfrySilni\obj\Debug\net6.0\dwieCyfrySilni.pdb
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\dwieCyfrySilni\dwieCyfrySilni\obj\Debug\net6.0\dwieCyfrySilni.genruntimeconfig.cache
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\dwieCyfrySilni\dwieCyfrySilni\obj\Debug\net6.0\ref\dwieCyfrySilni.dll

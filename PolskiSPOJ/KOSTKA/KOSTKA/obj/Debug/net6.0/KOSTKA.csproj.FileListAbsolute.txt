@@ -1,0 +1,15 @@
+C:\Users\Tomek\Desktop\Polski SPOJ\KOSTKA\KOSTKA\bin\Debug\net6.0\KOSTKA.exe
+C:\Users\Tomek\Desktop\Polski SPOJ\KOSTKA\KOSTKA\bin\Debug\net6.0\KOSTKA.deps.json
+C:\Users\Tomek\Desktop\Polski SPOJ\KOSTKA\KOSTKA\bin\Debug\net6.0\KOSTKA.runtimeconfig.json
+C:\Users\Tomek\Desktop\Polski SPOJ\KOSTKA\KOSTKA\bin\Debug\net6.0\KOSTKA.dll
+C:\Users\Tomek\Desktop\Polski SPOJ\KOSTKA\KOSTKA\bin\Debug\net6.0\KOSTKA.pdb
+C:\Users\Tomek\Desktop\Polski SPOJ\KOSTKA\KOSTKA\obj\Debug\net6.0\KOSTKA.csproj.AssemblyReference.cache
+C:\Users\Tomek\Desktop\Polski SPOJ\KOSTKA\KOSTKA\obj\Debug\net6.0\KOSTKA.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tomek\Desktop\Polski SPOJ\KOSTKA\KOSTKA\obj\Debug\net6.0\KOSTKA.AssemblyInfoInputs.cache
+C:\Users\Tomek\Desktop\Polski SPOJ\KOSTKA\KOSTKA\obj\Debug\net6.0\KOSTKA.AssemblyInfo.cs
+C:\Users\Tomek\Desktop\Polski SPOJ\KOSTKA\KOSTKA\obj\Debug\net6.0\KOSTKA.csproj.CoreCompileInputs.cache
+C:\Users\Tomek\Desktop\Polski SPOJ\KOSTKA\KOSTKA\obj\Debug\net6.0\KOSTKA.dll
+C:\Users\Tomek\Desktop\Polski SPOJ\KOSTKA\KOSTKA\obj\Debug\net6.0\refint\KOSTKA.dll
+C:\Users\Tomek\Desktop\Polski SPOJ\KOSTKA\KOSTKA\obj\Debug\net6.0\KOSTKA.pdb
+C:\Users\Tomek\Desktop\Polski SPOJ\KOSTKA\KOSTKA\obj\Debug\net6.0\KOSTKA.genruntimeconfig.cache
+C:\Users\Tomek\Desktop\Polski SPOJ\KOSTKA\KOSTKA\obj\Debug\net6.0\ref\KOSTKA.dll

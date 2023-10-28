@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Crud operations</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body>
+    <h1 class="title">Valves</h1>
+    <fieldset>
+        <form class="canForm">
+            <label id="index-label" for="_index">Index</label>
+            <input type="text" name="_index" placeholder="Index" />
+
+            <label id="fullname-label" for="_fullname">Name</label>
+            <input type="text" name="_fullname" placeholder="Name" />
+
+            <label id="supplier-label" for="_supplier">Supplier</label>
+            <input type="text" name="_supplier" placeholder="Supplier">
+
+            <label id="acceptance-date" for="_acceptance-date">Acceptance date:</label>
+            <input type="date" name="_acceptanceDate" placeholder="Acceptance date">
+
+            <label id="_expiriation-date" for="_expiriationDate">Expiriation date: </label>
+            <input type="date" name="_expiriationDate" placeholder="Expiriation date">
+
+            <label id="amount" for="_amount">Amount</label>
+            <input type="number" name="_amount" placeholder="Amount">
+
+            <label id="storage-place" for="_storagePlace">Storage place</label>
+            <input type="text" name="_storagePlace" placeholder="Storage place">
+
+            <label id="tube-length" for="_tubeLength">Tube length</label>
+            <input type="number" name="_tubeLength" placeholder="Tube length">
+
+            <label id="destiny" for="_destiny">Destiny</label>
+            <input type="text" name="_destiny" placeholder="Destiny">
+
+            <button type="submit" id="submit">Submit</button>
+
+        </form>
+    </fieldset>
+    <button type="submit" id="GetValves" class="GetValves">Get All Valves</button>
+    <button id="toggle-menu">Hide</button>
+        <ul id="menu">        
+            <h2>Valves:</h2>
+            <li>test</li>
+        </ul>
+
+    <script>
+        const formEl = document.querySelector('.canForm');
+
+        formEl.addEventListener('submit', event => {
+            event.preventDefault();
+
+            const formData = new FormData(formEl);
+
+            const data = Object.fromEntries(formData);
+            console.log(data);
+
+            fetch('https://localhost:7283/api/valves',
+                {
+                    method: 'POST',
+                    headers: {
+                        'Accept': 'application/json',
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(data)                    
+                })
+                .then(() => {location.reload()})                
+                      
+        });
+
+        const element = document.querySelector('.GetValves');
+
+        element.addEventListener('click', function GetValve(){
+
+        fetch("https://localhost:7283/api/Valves",
+        {
+            method: 'GET'
+        })
+            .then(res => {
+                console.log(res);
+                return res.json();
+            })
+            .then(data => {
+                data.forEach(element => {
+                    const markup = `<li>
+                        Index: ${element._index}
+                        <br> Name: ${element._fullName}
+                        <br> Supplier: ${element._supplier}
+                        <br> Acceptance date: ${element._acceptanceDate}
+                        <br> Expiration date: ${element._expiriationDate}
+                        <br> Amount: ${element._amount}
+                        <br> Storage place: ${element._storagePlace}
+                        <br> Tube length: ${element._tubeLength}
+                        <br> Destiny: ${element._destiny}</li>`;
+
+                    document.querySelector('ul').insertAdjacentHTML('beforeend', markup);
+                });                
+            })
+        });
+
+        // const menuElement = document.getElementById('menu');
+        // const menuToggleElement = document.getElementById('toggle-menu');
+
+        // menuToggleElement.addEventListener('click', function () {
+        //     menuElement.classList.toggle('visible');
+        // });
+    </script>
+</body>
+
+</html>

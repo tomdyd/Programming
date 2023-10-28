@@ -1,0 +1,15 @@
+C:\Users\Tomek\Desktop\Kurs programowania C#\ProjectPerson\bin\Debug\net6.0\ProjectPerson.exe
+C:\Users\Tomek\Desktop\Kurs programowania C#\ProjectPerson\bin\Debug\net6.0\ProjectPerson.deps.json
+C:\Users\Tomek\Desktop\Kurs programowania C#\ProjectPerson\bin\Debug\net6.0\ProjectPerson.runtimeconfig.json
+C:\Users\Tomek\Desktop\Kurs programowania C#\ProjectPerson\bin\Debug\net6.0\ProjectPerson.dll
+C:\Users\Tomek\Desktop\Kurs programowania C#\ProjectPerson\bin\Debug\net6.0\ProjectPerson.pdb
+C:\Users\Tomek\Desktop\Kurs programowania C#\ProjectPerson\obj\Debug\net6.0\ProjectPerson.csproj.AssemblyReference.cache
+C:\Users\Tomek\Desktop\Kurs programowania C#\ProjectPerson\obj\Debug\net6.0\ProjectPerson.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tomek\Desktop\Kurs programowania C#\ProjectPerson\obj\Debug\net6.0\ProjectPerson.AssemblyInfoInputs.cache
+C:\Users\Tomek\Desktop\Kurs programowania C#\ProjectPerson\obj\Debug\net6.0\ProjectPerson.AssemblyInfo.cs
+C:\Users\Tomek\Desktop\Kurs programowania C#\ProjectPerson\obj\Debug\net6.0\ProjectPerson.csproj.CoreCompileInputs.cache
+C:\Users\Tomek\Desktop\Kurs programowania C#\ProjectPerson\obj\Debug\net6.0\ProjectPerson.dll
+C:\Users\Tomek\Desktop\Kurs programowania C#\ProjectPerson\obj\Debug\net6.0\refint\ProjectPerson.dll
+C:\Users\Tomek\Desktop\Kurs programowania C#\ProjectPerson\obj\Debug\net6.0\ProjectPerson.pdb
+C:\Users\Tomek\Desktop\Kurs programowania C#\ProjectPerson\obj\Debug\net6.0\ProjectPerson.genruntimeconfig.cache
+C:\Users\Tomek\Desktop\Kurs programowania C#\ProjectPerson\obj\Debug\net6.0\ref\ProjectPerson.dll

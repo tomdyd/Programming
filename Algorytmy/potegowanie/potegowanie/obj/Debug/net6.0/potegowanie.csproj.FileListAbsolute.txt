@@ -1,0 +1,15 @@
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\potegowanie\potegowanie\bin\Debug\net6.0\potegowanie.exe
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\potegowanie\potegowanie\bin\Debug\net6.0\potegowanie.deps.json
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\potegowanie\potegowanie\bin\Debug\net6.0\potegowanie.runtimeconfig.json
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\potegowanie\potegowanie\bin\Debug\net6.0\potegowanie.dll
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\potegowanie\potegowanie\bin\Debug\net6.0\potegowanie.pdb
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\potegowanie\potegowanie\obj\Debug\net6.0\potegowanie.csproj.AssemblyReference.cache
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\potegowanie\potegowanie\obj\Debug\net6.0\potegowanie.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\potegowanie\potegowanie\obj\Debug\net6.0\potegowanie.AssemblyInfoInputs.cache
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\potegowanie\potegowanie\obj\Debug\net6.0\potegowanie.AssemblyInfo.cs
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\potegowanie\potegowanie\obj\Debug\net6.0\potegowanie.csproj.CoreCompileInputs.cache
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\potegowanie\potegowanie\obj\Debug\net6.0\potegowanie.dll
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\potegowanie\potegowanie\obj\Debug\net6.0\refint\potegowanie.dll
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\potegowanie\potegowanie\obj\Debug\net6.0\potegowanie.pdb
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\potegowanie\potegowanie\obj\Debug\net6.0\potegowanie.genruntimeconfig.cache
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\potegowanie\potegowanie\obj\Debug\net6.0\ref\potegowanie.dll

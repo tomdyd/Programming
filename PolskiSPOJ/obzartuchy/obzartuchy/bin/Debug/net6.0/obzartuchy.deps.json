@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "obzartuchy/1.0.0": {
+        "runtime": {
+          "obzartuchy.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "obzartuchy/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

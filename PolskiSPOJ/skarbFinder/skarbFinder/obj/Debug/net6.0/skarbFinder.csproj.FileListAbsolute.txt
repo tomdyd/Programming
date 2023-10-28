@@ -1,0 +1,30 @@
+C:\Users\Tomek\Desktop\Polski SPOJ\skarbFinder\skarbFinder\bin\Debug\net6.0\skarbFinder.exe
+C:\Users\Tomek\Desktop\Polski SPOJ\skarbFinder\skarbFinder\bin\Debug\net6.0\skarbFinder.deps.json
+C:\Users\Tomek\Desktop\Polski SPOJ\skarbFinder\skarbFinder\bin\Debug\net6.0\skarbFinder.runtimeconfig.json
+C:\Users\Tomek\Desktop\Polski SPOJ\skarbFinder\skarbFinder\bin\Debug\net6.0\skarbFinder.dll
+C:\Users\Tomek\Desktop\Polski SPOJ\skarbFinder\skarbFinder\bin\Debug\net6.0\skarbFinder.pdb
+C:\Users\Tomek\Desktop\Polski SPOJ\skarbFinder\skarbFinder\obj\Debug\net6.0\skarbFinder.csproj.AssemblyReference.cache
+C:\Users\Tomek\Desktop\Polski SPOJ\skarbFinder\skarbFinder\obj\Debug\net6.0\skarbFinder.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tomek\Desktop\Polski SPOJ\skarbFinder\skarbFinder\obj\Debug\net6.0\skarbFinder.AssemblyInfoInputs.cache
+C:\Users\Tomek\Desktop\Polski SPOJ\skarbFinder\skarbFinder\obj\Debug\net6.0\skarbFinder.AssemblyInfo.cs
+C:\Users\Tomek\Desktop\Polski SPOJ\skarbFinder\skarbFinder\obj\Debug\net6.0\skarbFinder.csproj.CoreCompileInputs.cache
+C:\Users\Tomek\Desktop\Polski SPOJ\skarbFinder\skarbFinder\obj\Debug\net6.0\skarbFinder.dll
+C:\Users\Tomek\Desktop\Polski SPOJ\skarbFinder\skarbFinder\obj\Debug\net6.0\refint\skarbFinder.dll
+C:\Users\Tomek\Desktop\Polski SPOJ\skarbFinder\skarbFinder\obj\Debug\net6.0\skarbFinder.pdb
+C:\Users\Tomek\Desktop\Polski SPOJ\skarbFinder\skarbFinder\obj\Debug\net6.0\skarbFinder.genruntimeconfig.cache
+C:\Users\Tomek\Desktop\Polski SPOJ\skarbFinder\skarbFinder\obj\Debug\net6.0\ref\skarbFinder.dll
+D:\Dane\Studia INF\Polski SPOJ\skarbFinder\skarbFinder\bin\Debug\net6.0\skarbFinder.exe
+D:\Dane\Studia INF\Polski SPOJ\skarbFinder\skarbFinder\bin\Debug\net6.0\skarbFinder.deps.json
+D:\Dane\Studia INF\Polski SPOJ\skarbFinder\skarbFinder\bin\Debug\net6.0\skarbFinder.runtimeconfig.json
+D:\Dane\Studia INF\Polski SPOJ\skarbFinder\skarbFinder\bin\Debug\net6.0\skarbFinder.dll
+D:\Dane\Studia INF\Polski SPOJ\skarbFinder\skarbFinder\bin\Debug\net6.0\skarbFinder.pdb
+D:\Dane\Studia INF\Polski SPOJ\skarbFinder\skarbFinder\obj\Debug\net6.0\skarbFinder.csproj.AssemblyReference.cache
+D:\Dane\Studia INF\Polski SPOJ\skarbFinder\skarbFinder\obj\Debug\net6.0\skarbFinder.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dane\Studia INF\Polski SPOJ\skarbFinder\skarbFinder\obj\Debug\net6.0\skarbFinder.AssemblyInfoInputs.cache
+D:\Dane\Studia INF\Polski SPOJ\skarbFinder\skarbFinder\obj\Debug\net6.0\skarbFinder.AssemblyInfo.cs
+D:\Dane\Studia INF\Polski SPOJ\skarbFinder\skarbFinder\obj\Debug\net6.0\skarbFinder.csproj.CoreCompileInputs.cache
+D:\Dane\Studia INF\Polski SPOJ\skarbFinder\skarbFinder\obj\Debug\net6.0\skarbFinder.dll
+D:\Dane\Studia INF\Polski SPOJ\skarbFinder\skarbFinder\obj\Debug\net6.0\refint\skarbFinder.dll
+D:\Dane\Studia INF\Polski SPOJ\skarbFinder\skarbFinder\obj\Debug\net6.0\skarbFinder.pdb
+D:\Dane\Studia INF\Polski SPOJ\skarbFinder\skarbFinder\obj\Debug\net6.0\skarbFinder.genruntimeconfig.cache
+D:\Dane\Studia INF\Polski SPOJ\skarbFinder\skarbFinder\obj\Debug\net6.0\ref\skarbFinder.dll

@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "IbVwmE6kN2siAz9hlp4sgIfEAYZiSOaHTtT8eA/omQc=",
+  "Source": "BookStoreApi",
+  "BasePath": "_content/BookStoreApi",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "BookStoreApi\\wwwroot",
+      "Source": "BookStoreApi",
+      "ContentRoot": "D:\\Dane\\PROGRAMOWANIE\\MicrosoftDocsProjects\\BookStoreApi\\BookStoreApi\\wwwroot\\",
+      "BasePath": "_content/BookStoreApi",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\Dane\\PROGRAMOWANIE\\MicrosoftDocsProjects\\BookStoreApi\\BookStoreApi\\wwwroot\\index.html",
+      "SourceId": "BookStoreApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Dane\\PROGRAMOWANIE\\MicrosoftDocsProjects\\BookStoreApi\\BookStoreApi\\wwwroot\\",
+      "BasePath": "_content/BookStoreApi",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    }
+  ]
+}

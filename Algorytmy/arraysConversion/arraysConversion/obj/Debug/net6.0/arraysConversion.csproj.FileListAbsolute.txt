@@ -1,0 +1,15 @@
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\arraysConversion\arraysConversion\bin\Debug\net6.0\arraysConversion.exe
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\arraysConversion\arraysConversion\bin\Debug\net6.0\arraysConversion.deps.json
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\arraysConversion\arraysConversion\bin\Debug\net6.0\arraysConversion.runtimeconfig.json
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\arraysConversion\arraysConversion\bin\Debug\net6.0\arraysConversion.dll
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\arraysConversion\arraysConversion\bin\Debug\net6.0\arraysConversion.pdb
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\arraysConversion\arraysConversion\obj\Debug\net6.0\arraysConversion.csproj.AssemblyReference.cache
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\arraysConversion\arraysConversion\obj\Debug\net6.0\arraysConversion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\arraysConversion\arraysConversion\obj\Debug\net6.0\arraysConversion.AssemblyInfoInputs.cache
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\arraysConversion\arraysConversion\obj\Debug\net6.0\arraysConversion.AssemblyInfo.cs
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\arraysConversion\arraysConversion\obj\Debug\net6.0\arraysConversion.csproj.CoreCompileInputs.cache
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\arraysConversion\arraysConversion\obj\Debug\net6.0\arraysConversion.dll
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\arraysConversion\arraysConversion\obj\Debug\net6.0\refint\arraysConversion.dll
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\arraysConversion\arraysConversion\obj\Debug\net6.0\arraysConversion.pdb
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\arraysConversion\arraysConversion\obj\Debug\net6.0\arraysConversion.genruntimeconfig.cache
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\arraysConversion\arraysConversion\obj\Debug\net6.0\ref\arraysConversion.dll

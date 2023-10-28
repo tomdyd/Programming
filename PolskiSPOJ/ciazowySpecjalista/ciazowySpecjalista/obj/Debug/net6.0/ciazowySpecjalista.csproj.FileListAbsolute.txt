@@ -1,0 +1,15 @@
+C:\Users\Tomek\Desktop\Polski SPOJ\ciazowySpecjalista\ciazowySpecjalista\obj\Debug\net6.0\ciazowySpecjalista.csproj.AssemblyReference.cache
+C:\Users\Tomek\Desktop\Polski SPOJ\ciazowySpecjalista\ciazowySpecjalista\obj\Debug\net6.0\ciazowySpecjalista.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tomek\Desktop\Polski SPOJ\ciazowySpecjalista\ciazowySpecjalista\obj\Debug\net6.0\ciazowySpecjalista.AssemblyInfoInputs.cache
+C:\Users\Tomek\Desktop\Polski SPOJ\ciazowySpecjalista\ciazowySpecjalista\obj\Debug\net6.0\ciazowySpecjalista.AssemblyInfo.cs
+C:\Users\Tomek\Desktop\Polski SPOJ\ciazowySpecjalista\ciazowySpecjalista\obj\Debug\net6.0\ciazowySpecjalista.csproj.CoreCompileInputs.cache
+C:\Users\Tomek\Desktop\Polski SPOJ\ciazowySpecjalista\ciazowySpecjalista\bin\Debug\net6.0\ciazowySpecjalista.exe
+C:\Users\Tomek\Desktop\Polski SPOJ\ciazowySpecjalista\ciazowySpecjalista\bin\Debug\net6.0\ciazowySpecjalista.deps.json
+C:\Users\Tomek\Desktop\Polski SPOJ\ciazowySpecjalista\ciazowySpecjalista\bin\Debug\net6.0\ciazowySpecjalista.runtimeconfig.json
+C:\Users\Tomek\Desktop\Polski SPOJ\ciazowySpecjalista\ciazowySpecjalista\bin\Debug\net6.0\ciazowySpecjalista.dll
+C:\Users\Tomek\Desktop\Polski SPOJ\ciazowySpecjalista\ciazowySpecjalista\bin\Debug\net6.0\ciazowySpecjalista.pdb
+C:\Users\Tomek\Desktop\Polski SPOJ\ciazowySpecjalista\ciazowySpecjalista\obj\Debug\net6.0\ciazowySpecjalista.dll
+C:\Users\Tomek\Desktop\Polski SPOJ\ciazowySpecjalista\ciazowySpecjalista\obj\Debug\net6.0\refint\ciazowySpecjalista.dll
+C:\Users\Tomek\Desktop\Polski SPOJ\ciazowySpecjalista\ciazowySpecjalista\obj\Debug\net6.0\ciazowySpecjalista.pdb
+C:\Users\Tomek\Desktop\Polski SPOJ\ciazowySpecjalista\ciazowySpecjalista\obj\Debug\net6.0\ciazowySpecjalista.genruntimeconfig.cache
+C:\Users\Tomek\Desktop\Polski SPOJ\ciazowySpecjalista\ciazowySpecjalista\obj\Debug\net6.0\ref\ciazowySpecjalista.dll

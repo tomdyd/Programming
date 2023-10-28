@@ -1,0 +1,15 @@
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\silniaRekurencja\silniaRekurencja\bin\Debug\net6.0\silniaRekurencja.exe
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\silniaRekurencja\silniaRekurencja\bin\Debug\net6.0\silniaRekurencja.deps.json
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\silniaRekurencja\silniaRekurencja\bin\Debug\net6.0\silniaRekurencja.runtimeconfig.json
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\silniaRekurencja\silniaRekurencja\bin\Debug\net6.0\silniaRekurencja.dll
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\silniaRekurencja\silniaRekurencja\bin\Debug\net6.0\silniaRekurencja.pdb
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\silniaRekurencja\silniaRekurencja\obj\Debug\net6.0\silniaRekurencja.csproj.AssemblyReference.cache
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\silniaRekurencja\silniaRekurencja\obj\Debug\net6.0\silniaRekurencja.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\silniaRekurencja\silniaRekurencja\obj\Debug\net6.0\silniaRekurencja.AssemblyInfoInputs.cache
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\silniaRekurencja\silniaRekurencja\obj\Debug\net6.0\silniaRekurencja.AssemblyInfo.cs
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\silniaRekurencja\silniaRekurencja\obj\Debug\net6.0\silniaRekurencja.csproj.CoreCompileInputs.cache
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\silniaRekurencja\silniaRekurencja\obj\Debug\net6.0\silniaRekurencja.dll
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\silniaRekurencja\silniaRekurencja\obj\Debug\net6.0\refint\silniaRekurencja.dll
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\silniaRekurencja\silniaRekurencja\obj\Debug\net6.0\silniaRekurencja.pdb
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\silniaRekurencja\silniaRekurencja\obj\Debug\net6.0\silniaRekurencja.genruntimeconfig.cache
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\silniaRekurencja\silniaRekurencja\obj\Debug\net6.0\ref\silniaRekurencja.dll

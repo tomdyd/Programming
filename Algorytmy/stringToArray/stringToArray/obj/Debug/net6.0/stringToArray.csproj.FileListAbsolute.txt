@@ -1,0 +1,15 @@
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\stringToArray\stringToArray\bin\Debug\net6.0\stringToArray.exe
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\stringToArray\stringToArray\bin\Debug\net6.0\stringToArray.deps.json
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\stringToArray\stringToArray\bin\Debug\net6.0\stringToArray.runtimeconfig.json
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\stringToArray\stringToArray\bin\Debug\net6.0\stringToArray.dll
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\stringToArray\stringToArray\bin\Debug\net6.0\stringToArray.pdb
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\stringToArray\stringToArray\obj\Debug\net6.0\stringToArray.csproj.AssemblyReference.cache
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\stringToArray\stringToArray\obj\Debug\net6.0\stringToArray.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\stringToArray\stringToArray\obj\Debug\net6.0\stringToArray.AssemblyInfoInputs.cache
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\stringToArray\stringToArray\obj\Debug\net6.0\stringToArray.AssemblyInfo.cs
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\stringToArray\stringToArray\obj\Debug\net6.0\stringToArray.csproj.CoreCompileInputs.cache
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\stringToArray\stringToArray\obj\Debug\net6.0\stringToArray.dll
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\stringToArray\stringToArray\obj\Debug\net6.0\refint\stringToArray.dll
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\stringToArray\stringToArray\obj\Debug\net6.0\stringToArray.pdb
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\stringToArray\stringToArray\obj\Debug\net6.0\stringToArray.genruntimeconfig.cache
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\stringToArray\stringToArray\obj\Debug\net6.0\ref\stringToArray.dll

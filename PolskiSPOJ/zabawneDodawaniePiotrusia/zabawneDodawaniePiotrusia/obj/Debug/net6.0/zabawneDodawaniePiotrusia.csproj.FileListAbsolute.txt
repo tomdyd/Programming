@@ -1,0 +1,15 @@
+C:\Users\Tomek\Desktop\Polski SPOJ\zabawneDodawaniePiotrusia\zabawneDodawaniePiotrusia\bin\Debug\net6.0\zabawneDodawaniePiotrusia.exe
+C:\Users\Tomek\Desktop\Polski SPOJ\zabawneDodawaniePiotrusia\zabawneDodawaniePiotrusia\bin\Debug\net6.0\zabawneDodawaniePiotrusia.deps.json
+C:\Users\Tomek\Desktop\Polski SPOJ\zabawneDodawaniePiotrusia\zabawneDodawaniePiotrusia\bin\Debug\net6.0\zabawneDodawaniePiotrusia.runtimeconfig.json
+C:\Users\Tomek\Desktop\Polski SPOJ\zabawneDodawaniePiotrusia\zabawneDodawaniePiotrusia\bin\Debug\net6.0\zabawneDodawaniePiotrusia.dll
+C:\Users\Tomek\Desktop\Polski SPOJ\zabawneDodawaniePiotrusia\zabawneDodawaniePiotrusia\bin\Debug\net6.0\zabawneDodawaniePiotrusia.pdb
+C:\Users\Tomek\Desktop\Polski SPOJ\zabawneDodawaniePiotrusia\zabawneDodawaniePiotrusia\obj\Debug\net6.0\zabawneDodawaniePiotrusia.csproj.AssemblyReference.cache
+C:\Users\Tomek\Desktop\Polski SPOJ\zabawneDodawaniePiotrusia\zabawneDodawaniePiotrusia\obj\Debug\net6.0\zabawneDodawaniePiotrusia.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tomek\Desktop\Polski SPOJ\zabawneDodawaniePiotrusia\zabawneDodawaniePiotrusia\obj\Debug\net6.0\zabawneDodawaniePiotrusia.AssemblyInfoInputs.cache
+C:\Users\Tomek\Desktop\Polski SPOJ\zabawneDodawaniePiotrusia\zabawneDodawaniePiotrusia\obj\Debug\net6.0\zabawneDodawaniePiotrusia.AssemblyInfo.cs
+C:\Users\Tomek\Desktop\Polski SPOJ\zabawneDodawaniePiotrusia\zabawneDodawaniePiotrusia\obj\Debug\net6.0\zabawneDodawaniePiotrusia.csproj.CoreCompileInputs.cache
+C:\Users\Tomek\Desktop\Polski SPOJ\zabawneDodawaniePiotrusia\zabawneDodawaniePiotrusia\obj\Debug\net6.0\zabawneDodawaniePiotrusia.dll
+C:\Users\Tomek\Desktop\Polski SPOJ\zabawneDodawaniePiotrusia\zabawneDodawaniePiotrusia\obj\Debug\net6.0\refint\zabawneDodawaniePiotrusia.dll
+C:\Users\Tomek\Desktop\Polski SPOJ\zabawneDodawaniePiotrusia\zabawneDodawaniePiotrusia\obj\Debug\net6.0\zabawneDodawaniePiotrusia.pdb
+C:\Users\Tomek\Desktop\Polski SPOJ\zabawneDodawaniePiotrusia\zabawneDodawaniePiotrusia\obj\Debug\net6.0\zabawneDodawaniePiotrusia.genruntimeconfig.cache
+C:\Users\Tomek\Desktop\Polski SPOJ\zabawneDodawaniePiotrusia\zabawneDodawaniePiotrusia\obj\Debug\net6.0\ref\zabawneDodawaniePiotrusia.dll

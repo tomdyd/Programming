@@ -1,0 +1,15 @@
+C:\Users\Tomek\Desktop\Polski SPOJ\problemCollatza\problemCollatza\bin\Debug\net6.0\problemCollatza.exe
+C:\Users\Tomek\Desktop\Polski SPOJ\problemCollatza\problemCollatza\bin\Debug\net6.0\problemCollatza.deps.json
+C:\Users\Tomek\Desktop\Polski SPOJ\problemCollatza\problemCollatza\bin\Debug\net6.0\problemCollatza.runtimeconfig.json
+C:\Users\Tomek\Desktop\Polski SPOJ\problemCollatza\problemCollatza\bin\Debug\net6.0\problemCollatza.dll
+C:\Users\Tomek\Desktop\Polski SPOJ\problemCollatza\problemCollatza\bin\Debug\net6.0\problemCollatza.pdb
+C:\Users\Tomek\Desktop\Polski SPOJ\problemCollatza\problemCollatza\obj\Debug\net6.0\problemCollatza.csproj.AssemblyReference.cache
+C:\Users\Tomek\Desktop\Polski SPOJ\problemCollatza\problemCollatza\obj\Debug\net6.0\problemCollatza.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tomek\Desktop\Polski SPOJ\problemCollatza\problemCollatza\obj\Debug\net6.0\problemCollatza.AssemblyInfoInputs.cache
+C:\Users\Tomek\Desktop\Polski SPOJ\problemCollatza\problemCollatza\obj\Debug\net6.0\problemCollatza.AssemblyInfo.cs
+C:\Users\Tomek\Desktop\Polski SPOJ\problemCollatza\problemCollatza\obj\Debug\net6.0\problemCollatza.csproj.CoreCompileInputs.cache
+C:\Users\Tomek\Desktop\Polski SPOJ\problemCollatza\problemCollatza\obj\Debug\net6.0\problemCollatza.dll
+C:\Users\Tomek\Desktop\Polski SPOJ\problemCollatza\problemCollatza\obj\Debug\net6.0\refint\problemCollatza.dll
+C:\Users\Tomek\Desktop\Polski SPOJ\problemCollatza\problemCollatza\obj\Debug\net6.0\problemCollatza.pdb
+C:\Users\Tomek\Desktop\Polski SPOJ\problemCollatza\problemCollatza\obj\Debug\net6.0\problemCollatza.genruntimeconfig.cache
+C:\Users\Tomek\Desktop\Polski SPOJ\problemCollatza\problemCollatza\obj\Debug\net6.0\ref\problemCollatza.dll

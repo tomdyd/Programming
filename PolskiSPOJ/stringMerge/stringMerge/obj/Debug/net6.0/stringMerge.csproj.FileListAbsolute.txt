@@ -1,0 +1,15 @@
+C:\Users\Tomek\Desktop\Polski SPOJ\stringMerge\stringMerge\bin\Debug\net6.0\stringMerge.exe
+C:\Users\Tomek\Desktop\Polski SPOJ\stringMerge\stringMerge\bin\Debug\net6.0\stringMerge.deps.json
+C:\Users\Tomek\Desktop\Polski SPOJ\stringMerge\stringMerge\bin\Debug\net6.0\stringMerge.runtimeconfig.json
+C:\Users\Tomek\Desktop\Polski SPOJ\stringMerge\stringMerge\bin\Debug\net6.0\stringMerge.dll
+C:\Users\Tomek\Desktop\Polski SPOJ\stringMerge\stringMerge\bin\Debug\net6.0\stringMerge.pdb
+C:\Users\Tomek\Desktop\Polski SPOJ\stringMerge\stringMerge\obj\Debug\net6.0\stringMerge.csproj.AssemblyReference.cache
+C:\Users\Tomek\Desktop\Polski SPOJ\stringMerge\stringMerge\obj\Debug\net6.0\stringMerge.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tomek\Desktop\Polski SPOJ\stringMerge\stringMerge\obj\Debug\net6.0\stringMerge.AssemblyInfoInputs.cache
+C:\Users\Tomek\Desktop\Polski SPOJ\stringMerge\stringMerge\obj\Debug\net6.0\stringMerge.AssemblyInfo.cs
+C:\Users\Tomek\Desktop\Polski SPOJ\stringMerge\stringMerge\obj\Debug\net6.0\stringMerge.csproj.CoreCompileInputs.cache
+C:\Users\Tomek\Desktop\Polski SPOJ\stringMerge\stringMerge\obj\Debug\net6.0\stringMerge.dll
+C:\Users\Tomek\Desktop\Polski SPOJ\stringMerge\stringMerge\obj\Debug\net6.0\refint\stringMerge.dll
+C:\Users\Tomek\Desktop\Polski SPOJ\stringMerge\stringMerge\obj\Debug\net6.0\stringMerge.pdb
+C:\Users\Tomek\Desktop\Polski SPOJ\stringMerge\stringMerge\obj\Debug\net6.0\stringMerge.genruntimeconfig.cache
+C:\Users\Tomek\Desktop\Polski SPOJ\stringMerge\stringMerge\obj\Debug\net6.0\ref\stringMerge.dll

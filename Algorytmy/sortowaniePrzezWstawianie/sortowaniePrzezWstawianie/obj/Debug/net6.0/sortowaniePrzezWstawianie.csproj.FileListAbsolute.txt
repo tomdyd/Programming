@@ -1,0 +1,15 @@
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\sortowaniePrzezWstawianie\sortowaniePrzezWstawianie\obj\Debug\net6.0\sortowaniePrzezWstawianie.csproj.AssemblyReference.cache
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\sortowaniePrzezWstawianie\sortowaniePrzezWstawianie\obj\Debug\net6.0\sortowaniePrzezWstawianie.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\sortowaniePrzezWstawianie\sortowaniePrzezWstawianie\obj\Debug\net6.0\sortowaniePrzezWstawianie.AssemblyInfoInputs.cache
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\sortowaniePrzezWstawianie\sortowaniePrzezWstawianie\obj\Debug\net6.0\sortowaniePrzezWstawianie.AssemblyInfo.cs
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\sortowaniePrzezWstawianie\sortowaniePrzezWstawianie\obj\Debug\net6.0\sortowaniePrzezWstawianie.csproj.CoreCompileInputs.cache
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\sortowaniePrzezWstawianie\sortowaniePrzezWstawianie\bin\Debug\net6.0\sortowaniePrzezWstawianie.exe
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\sortowaniePrzezWstawianie\sortowaniePrzezWstawianie\bin\Debug\net6.0\sortowaniePrzezWstawianie.deps.json
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\sortowaniePrzezWstawianie\sortowaniePrzezWstawianie\bin\Debug\net6.0\sortowaniePrzezWstawianie.runtimeconfig.json
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\sortowaniePrzezWstawianie\sortowaniePrzezWstawianie\bin\Debug\net6.0\sortowaniePrzezWstawianie.dll
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\sortowaniePrzezWstawianie\sortowaniePrzezWstawianie\bin\Debug\net6.0\sortowaniePrzezWstawianie.pdb
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\sortowaniePrzezWstawianie\sortowaniePrzezWstawianie\obj\Debug\net6.0\sortowaniePrzezWstawianie.dll
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\sortowaniePrzezWstawianie\sortowaniePrzezWstawianie\obj\Debug\net6.0\refint\sortowaniePrzezWstawianie.dll
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\sortowaniePrzezWstawianie\sortowaniePrzezWstawianie\obj\Debug\net6.0\sortowaniePrzezWstawianie.pdb
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\sortowaniePrzezWstawianie\sortowaniePrzezWstawianie\obj\Debug\net6.0\sortowaniePrzezWstawianie.genruntimeconfig.cache
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\sortowaniePrzezWstawianie\sortowaniePrzezWstawianie\obj\Debug\net6.0\ref\sortowaniePrzezWstawianie.dll
