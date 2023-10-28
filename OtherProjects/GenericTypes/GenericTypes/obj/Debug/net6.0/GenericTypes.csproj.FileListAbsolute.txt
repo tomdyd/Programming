@@ -1,0 +1,14 @@
+D:\Dane\PROGRAMOWANIE\GenericTypes\GenericTypes\bin\Debug\net6.0\GenericTypes.exe
+D:\Dane\PROGRAMOWANIE\GenericTypes\GenericTypes\bin\Debug\net6.0\GenericTypes.deps.json
+D:\Dane\PROGRAMOWANIE\GenericTypes\GenericTypes\bin\Debug\net6.0\GenericTypes.runtimeconfig.json
+D:\Dane\PROGRAMOWANIE\GenericTypes\GenericTypes\bin\Debug\net6.0\GenericTypes.dll
+D:\Dane\PROGRAMOWANIE\GenericTypes\GenericTypes\bin\Debug\net6.0\GenericTypes.pdb
+D:\Dane\PROGRAMOWANIE\GenericTypes\GenericTypes\obj\Debug\net6.0\GenericTypes.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dane\PROGRAMOWANIE\GenericTypes\GenericTypes\obj\Debug\net6.0\GenericTypes.AssemblyInfoInputs.cache
+D:\Dane\PROGRAMOWANIE\GenericTypes\GenericTypes\obj\Debug\net6.0\GenericTypes.AssemblyInfo.cs
+D:\Dane\PROGRAMOWANIE\GenericTypes\GenericTypes\obj\Debug\net6.0\GenericTypes.csproj.CoreCompileInputs.cache
+D:\Dane\PROGRAMOWANIE\GenericTypes\GenericTypes\obj\Debug\net6.0\GenericTypes.dll
+D:\Dane\PROGRAMOWANIE\GenericTypes\GenericTypes\obj\Debug\net6.0\refint\GenericTypes.dll
+D:\Dane\PROGRAMOWANIE\GenericTypes\GenericTypes\obj\Debug\net6.0\GenericTypes.pdb
+D:\Dane\PROGRAMOWANIE\GenericTypes\GenericTypes\obj\Debug\net6.0\GenericTypes.genruntimeconfig.cache
+D:\Dane\PROGRAMOWANIE\GenericTypes\GenericTypes\obj\Debug\net6.0\ref\GenericTypes.dll

@@ -1,0 +1,76 @@
+﻿<Window x:Class="SpaceShooter.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SpaceShooter" 
+        xmlns:player="clr-namespace:SpaceShooter.Virew.Player"
+        mc:Ignorable="d"
+        WindowStyle="None"
+        AllowsTransparency="True"
+        x:Name="AppWindow"
+        Deactivated="AppWindow_Deactivated"
+        Activated="AppWindow_Activated"
+        MinWidth="{Binding WindowMinimumWidth}"
+        MinHeight="{Binding WindowMinimumHeight}"
+        WindowStartupLocation="CenterScreen"
+        Title="MainWindow">
+    <Window.Resources>
+        <Style TargetType="{x:Type local:MainWindow}">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Window}">
+                        <Border BorderBrush="{StaticResource ForegroundDarkBrush}">
+                            <Grid>
+                                <Border Panel.ZIndex="2"
+                                        CornerRadius="{Binding WindowCornerRadius, FallbackValue=10}"
+                                        BorderBrush="{StaticResource BackgroundLightBrush}" />
+
+                                <Border x:Name="Container"
+                                        Background="{StaticResource BackgroundLightBrush}"
+                                        CornerRadius="{Binding WindowCornerRadius, FallbackValue=10}" />
+
+                                <Border CornerRadius="{Binding WindowCornerRadius, FallbackValue=10}"
+                                    Background="{StaticResource ForegroundLightBrush}">
+                                    <Border.Effect>
+                                        <DropShadowEffect ShadowDepth="0.5" Opacity="0.2" />
+                                    </Border.Effect>
+                                </Border>
+
+                                <Grid>
+                                    <Grid.OpacityMask>
+                                        <VisualBrush Visual="{Binding ElementName=Container}" />
+                                    </Grid.OpacityMask>
+
+                                    <!-- Page Content -->
+                                    <Border Grid.Row="2" Padding="5" ClipToBounds="True">
+                                        <ContentPresenter Content="{TemplateBinding Content}" />
+                                    </Border>
+                                </Grid>
+                            </Grid>
+                        </Border>
+
+
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+    <Border>
+        <Grid>
+            <Grid.Background>
+                <ImageBrush TileMode="Tile" 
+                            ViewportUnits="Absolute" 
+                            Viewport="0 0 500 500" 
+                            ImageSource="/Images/Backgrounds/purple.png" />
+            </Grid.Background>
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="50"/>
+            </Grid.RowDefinitions>
+
+            <player:PlayerControl Grid.Row="1" Margin="5"/>
+        </Grid>
+    </Border>
+</Window>

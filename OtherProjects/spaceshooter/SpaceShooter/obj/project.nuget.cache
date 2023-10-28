@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "AZnMl+/L4dyQAC6HKdyPFpJWo2fFBfiptD+7Lg8Mchh3y/KdNikroVSXuV8uJ8REC6EIsJSBn3sf/r+clSsy+g==",
+  "success": true,
+  "projectFilePath": "D:\\Dane\\spaceshooter\\SpaceShooter\\SpaceShooter.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Tomek\\.nuget\\packages\\mousekeyhook\\5.7.1\\mousekeyhook.5.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}
