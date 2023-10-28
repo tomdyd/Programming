@@ -1,0 +1,15 @@
+C:\Users\Jadwiga\Desktop\Programowanie\Faktoryzacja\Faktoryzacja\bin\Debug\net6.0\Faktoryzacja.exe
+C:\Users\Jadwiga\Desktop\Programowanie\Faktoryzacja\Faktoryzacja\bin\Debug\net6.0\Faktoryzacja.deps.json
+C:\Users\Jadwiga\Desktop\Programowanie\Faktoryzacja\Faktoryzacja\bin\Debug\net6.0\Faktoryzacja.runtimeconfig.json
+C:\Users\Jadwiga\Desktop\Programowanie\Faktoryzacja\Faktoryzacja\bin\Debug\net6.0\Faktoryzacja.dll
+C:\Users\Jadwiga\Desktop\Programowanie\Faktoryzacja\Faktoryzacja\bin\Debug\net6.0\Faktoryzacja.pdb
+C:\Users\Jadwiga\Desktop\Programowanie\Faktoryzacja\Faktoryzacja\obj\Debug\net6.0\Faktoryzacja.csproj.AssemblyReference.cache
+C:\Users\Jadwiga\Desktop\Programowanie\Faktoryzacja\Faktoryzacja\obj\Debug\net6.0\Faktoryzacja.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jadwiga\Desktop\Programowanie\Faktoryzacja\Faktoryzacja\obj\Debug\net6.0\Faktoryzacja.AssemblyInfoInputs.cache
+C:\Users\Jadwiga\Desktop\Programowanie\Faktoryzacja\Faktoryzacja\obj\Debug\net6.0\Faktoryzacja.AssemblyInfo.cs
+C:\Users\Jadwiga\Desktop\Programowanie\Faktoryzacja\Faktoryzacja\obj\Debug\net6.0\Faktoryzacja.csproj.CoreCompileInputs.cache
+C:\Users\Jadwiga\Desktop\Programowanie\Faktoryzacja\Faktoryzacja\obj\Debug\net6.0\Faktoryzacja.dll
+C:\Users\Jadwiga\Desktop\Programowanie\Faktoryzacja\Faktoryzacja\obj\Debug\net6.0\refint\Faktoryzacja.dll
+C:\Users\Jadwiga\Desktop\Programowanie\Faktoryzacja\Faktoryzacja\obj\Debug\net6.0\Faktoryzacja.pdb
+C:\Users\Jadwiga\Desktop\Programowanie\Faktoryzacja\Faktoryzacja\obj\Debug\net6.0\Faktoryzacja.genruntimeconfig.cache
+C:\Users\Jadwiga\Desktop\Programowanie\Faktoryzacja\Faktoryzacja\obj\Debug\net6.0\ref\Faktoryzacja.dll

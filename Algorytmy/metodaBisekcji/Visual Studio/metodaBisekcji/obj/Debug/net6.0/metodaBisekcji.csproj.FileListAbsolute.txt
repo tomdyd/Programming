@@ -1,0 +1,30 @@
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\metodaBisekcji\metodaBisekcji\bin\Debug\net6.0\metodaBisekcji.exe
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\metodaBisekcji\metodaBisekcji\bin\Debug\net6.0\metodaBisekcji.deps.json
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\metodaBisekcji\metodaBisekcji\bin\Debug\net6.0\metodaBisekcji.runtimeconfig.json
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\metodaBisekcji\metodaBisekcji\bin\Debug\net6.0\metodaBisekcji.dll
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\metodaBisekcji\metodaBisekcji\bin\Debug\net6.0\metodaBisekcji.pdb
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\metodaBisekcji\metodaBisekcji\obj\Debug\net6.0\metodaBisekcji.csproj.AssemblyReference.cache
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\metodaBisekcji\metodaBisekcji\obj\Debug\net6.0\metodaBisekcji.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\metodaBisekcji\metodaBisekcji\obj\Debug\net6.0\metodaBisekcji.AssemblyInfoInputs.cache
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\metodaBisekcji\metodaBisekcji\obj\Debug\net6.0\metodaBisekcji.AssemblyInfo.cs
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\metodaBisekcji\metodaBisekcji\obj\Debug\net6.0\metodaBisekcji.csproj.CoreCompileInputs.cache
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\metodaBisekcji\metodaBisekcji\obj\Debug\net6.0\metodaBisekcji.dll
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\metodaBisekcji\metodaBisekcji\obj\Debug\net6.0\refint\metodaBisekcji.dll
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\metodaBisekcji\metodaBisekcji\obj\Debug\net6.0\metodaBisekcji.pdb
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\metodaBisekcji\metodaBisekcji\obj\Debug\net6.0\metodaBisekcji.genruntimeconfig.cache
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\metodaBisekcji\metodaBisekcji\obj\Debug\net6.0\ref\metodaBisekcji.dll
+C:\Users\Tomek\git_repository\Algorytmy\metodaBisekcji\metodaBisekcji\bin\Debug\net6.0\metodaBisekcji.exe
+C:\Users\Tomek\git_repository\Algorytmy\metodaBisekcji\metodaBisekcji\bin\Debug\net6.0\metodaBisekcji.deps.json
+C:\Users\Tomek\git_repository\Algorytmy\metodaBisekcji\metodaBisekcji\bin\Debug\net6.0\metodaBisekcji.runtimeconfig.json
+C:\Users\Tomek\git_repository\Algorytmy\metodaBisekcji\metodaBisekcji\bin\Debug\net6.0\metodaBisekcji.dll
+C:\Users\Tomek\git_repository\Algorytmy\metodaBisekcji\metodaBisekcji\bin\Debug\net6.0\metodaBisekcji.pdb
+C:\Users\Tomek\git_repository\Algorytmy\metodaBisekcji\metodaBisekcji\obj\Debug\net6.0\metodaBisekcji.csproj.AssemblyReference.cache
+C:\Users\Tomek\git_repository\Algorytmy\metodaBisekcji\metodaBisekcji\obj\Debug\net6.0\metodaBisekcji.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tomek\git_repository\Algorytmy\metodaBisekcji\metodaBisekcji\obj\Debug\net6.0\metodaBisekcji.AssemblyInfoInputs.cache
+C:\Users\Tomek\git_repository\Algorytmy\metodaBisekcji\metodaBisekcji\obj\Debug\net6.0\metodaBisekcji.AssemblyInfo.cs
+C:\Users\Tomek\git_repository\Algorytmy\metodaBisekcji\metodaBisekcji\obj\Debug\net6.0\metodaBisekcji.csproj.CoreCompileInputs.cache
+C:\Users\Tomek\git_repository\Algorytmy\metodaBisekcji\metodaBisekcji\obj\Debug\net6.0\metodaBisekcji.dll
+C:\Users\Tomek\git_repository\Algorytmy\metodaBisekcji\metodaBisekcji\obj\Debug\net6.0\refint\metodaBisekcji.dll
+C:\Users\Tomek\git_repository\Algorytmy\metodaBisekcji\metodaBisekcji\obj\Debug\net6.0\metodaBisekcji.pdb
+C:\Users\Tomek\git_repository\Algorytmy\metodaBisekcji\metodaBisekcji\obj\Debug\net6.0\metodaBisekcji.genruntimeconfig.cache
+C:\Users\Tomek\git_repository\Algorytmy\metodaBisekcji\metodaBisekcji\obj\Debug\net6.0\ref\metodaBisekcji.dll

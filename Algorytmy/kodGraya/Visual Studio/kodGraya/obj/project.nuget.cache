@@ -1,0 +1,14 @@
+{
+  "version": 2,
+<<<<<<< HEAD
+  "dgSpecHash": "4E2M0T4xKZjBT2B0s96Z/r+jaRIVEgOQYTNI9P0aZc8t9XHir+FRcMq87mGhSvpaTiv++oTma2TRoKF8D/gFMQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Tomek\\git_repository\\algorytmy\\kodGraya\\Visual Studio\\kodGraya\\kodGraya.csproj",
+=======
+  "dgSpecHash": "g6Phczzv22PmVnIkpSQ0/Gm7cK0Ig/NGaL2NgpuKGRSO6dEsGtw+KEK14R8Gs5Zw8tfuJbwxr/EKa1eMQ+QPsg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Jadwiga\\git_repository\\Algorytmy\\kodGraya\\Visual Studio\\kodGraya\\kodGraya.csproj",
+>>>>>>> 7a4e3b40a2648490e6a39ca6f2352f3beedd7ebb
+  "expectedPackageFiles": [],
+  "logs": []
+}

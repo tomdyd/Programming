@@ -1,0 +1,63 @@
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\kodGraya\kodGraya\bin\Debug\net6.0\kodGraya.exe
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\kodGraya\kodGraya\bin\Debug\net6.0\kodGraya.deps.json
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\kodGraya\kodGraya\bin\Debug\net6.0\kodGraya.runtimeconfig.json
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\kodGraya\kodGraya\bin\Debug\net6.0\kodGraya.dll
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\kodGraya\kodGraya\bin\Debug\net6.0\kodGraya.pdb
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\kodGraya\kodGraya\obj\Debug\net6.0\kodGraya.csproj.AssemblyReference.cache
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\kodGraya\kodGraya\obj\Debug\net6.0\kodGraya.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\kodGraya\kodGraya\obj\Debug\net6.0\kodGraya.AssemblyInfoInputs.cache
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\kodGraya\kodGraya\obj\Debug\net6.0\kodGraya.AssemblyInfo.cs
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\kodGraya\kodGraya\obj\Debug\net6.0\kodGraya.csproj.CoreCompileInputs.cache
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\kodGraya\kodGraya\obj\Debug\net6.0\kodGraya.dll
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\kodGraya\kodGraya\obj\Debug\net6.0\refint\kodGraya.dll
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\kodGraya\kodGraya\obj\Debug\net6.0\kodGraya.pdb
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\kodGraya\kodGraya\obj\Debug\net6.0\kodGraya.genruntimeconfig.cache
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\kodGraya\kodGraya\obj\Debug\net6.0\ref\kodGraya.dll
+C:\Users\Tomek\git_repository\Algorytmy\kodGraya\kodGraya\bin\Debug\net6.0\kodGraya.exe
+C:\Users\Tomek\git_repository\Algorytmy\kodGraya\kodGraya\bin\Debug\net6.0\kodGraya.deps.json
+C:\Users\Tomek\git_repository\Algorytmy\kodGraya\kodGraya\bin\Debug\net6.0\kodGraya.runtimeconfig.json
+C:\Users\Tomek\git_repository\Algorytmy\kodGraya\kodGraya\bin\Debug\net6.0\kodGraya.dll
+C:\Users\Tomek\git_repository\Algorytmy\kodGraya\kodGraya\bin\Debug\net6.0\kodGraya.pdb
+C:\Users\Tomek\git_repository\Algorytmy\kodGraya\kodGraya\obj\Debug\net6.0\kodGraya.csproj.AssemblyReference.cache
+C:\Users\Tomek\git_repository\Algorytmy\kodGraya\kodGraya\obj\Debug\net6.0\kodGraya.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tomek\git_repository\Algorytmy\kodGraya\kodGraya\obj\Debug\net6.0\kodGraya.AssemblyInfoInputs.cache
+C:\Users\Tomek\git_repository\Algorytmy\kodGraya\kodGraya\obj\Debug\net6.0\kodGraya.AssemblyInfo.cs
+C:\Users\Tomek\git_repository\Algorytmy\kodGraya\kodGraya\obj\Debug\net6.0\kodGraya.csproj.CoreCompileInputs.cache
+C:\Users\Tomek\git_repository\Algorytmy\kodGraya\kodGraya\obj\Debug\net6.0\kodGraya.dll
+C:\Users\Tomek\git_repository\Algorytmy\kodGraya\kodGraya\obj\Debug\net6.0\refint\kodGraya.dll
+C:\Users\Tomek\git_repository\Algorytmy\kodGraya\kodGraya\obj\Debug\net6.0\kodGraya.pdb
+C:\Users\Tomek\git_repository\Algorytmy\kodGraya\kodGraya\obj\Debug\net6.0\kodGraya.genruntimeconfig.cache
+C:\Users\Tomek\git_repository\Algorytmy\kodGraya\kodGraya\obj\Debug\net6.0\ref\kodGraya.dll
+<<<<<<< HEAD
+C:\Users\Tomek\git_repository\algorytmy\kodGraya\Visual Studio\kodGraya\bin\Debug\net6.0\kodGraya.exe
+C:\Users\Tomek\git_repository\algorytmy\kodGraya\Visual Studio\kodGraya\bin\Debug\net6.0\kodGraya.deps.json
+C:\Users\Tomek\git_repository\algorytmy\kodGraya\Visual Studio\kodGraya\bin\Debug\net6.0\kodGraya.runtimeconfig.json
+C:\Users\Tomek\git_repository\algorytmy\kodGraya\Visual Studio\kodGraya\bin\Debug\net6.0\kodGraya.dll
+C:\Users\Tomek\git_repository\algorytmy\kodGraya\Visual Studio\kodGraya\bin\Debug\net6.0\kodGraya.pdb
+C:\Users\Tomek\git_repository\algorytmy\kodGraya\Visual Studio\kodGraya\obj\Debug\net6.0\kodGraya.csproj.AssemblyReference.cache
+C:\Users\Tomek\git_repository\algorytmy\kodGraya\Visual Studio\kodGraya\obj\Debug\net6.0\kodGraya.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tomek\git_repository\algorytmy\kodGraya\Visual Studio\kodGraya\obj\Debug\net6.0\kodGraya.AssemblyInfoInputs.cache
+C:\Users\Tomek\git_repository\algorytmy\kodGraya\Visual Studio\kodGraya\obj\Debug\net6.0\kodGraya.AssemblyInfo.cs
+C:\Users\Tomek\git_repository\algorytmy\kodGraya\Visual Studio\kodGraya\obj\Debug\net6.0\kodGraya.csproj.CoreCompileInputs.cache
+C:\Users\Tomek\git_repository\algorytmy\kodGraya\Visual Studio\kodGraya\obj\Debug\net6.0\kodGraya.dll
+C:\Users\Tomek\git_repository\algorytmy\kodGraya\Visual Studio\kodGraya\obj\Debug\net6.0\refint\kodGraya.dll
+C:\Users\Tomek\git_repository\algorytmy\kodGraya\Visual Studio\kodGraya\obj\Debug\net6.0\kodGraya.pdb
+C:\Users\Tomek\git_repository\algorytmy\kodGraya\Visual Studio\kodGraya\obj\Debug\net6.0\kodGraya.genruntimeconfig.cache
+C:\Users\Tomek\git_repository\algorytmy\kodGraya\Visual Studio\kodGraya\obj\Debug\net6.0\ref\kodGraya.dll
+=======
+C:\Users\Jadwiga\git_repository\Algorytmy\kodGraya\Visual Studio\kodGraya\bin\Debug\net6.0\kodGraya.exe
+C:\Users\Jadwiga\git_repository\Algorytmy\kodGraya\Visual Studio\kodGraya\bin\Debug\net6.0\kodGraya.deps.json
+C:\Users\Jadwiga\git_repository\Algorytmy\kodGraya\Visual Studio\kodGraya\bin\Debug\net6.0\kodGraya.runtimeconfig.json
+C:\Users\Jadwiga\git_repository\Algorytmy\kodGraya\Visual Studio\kodGraya\bin\Debug\net6.0\kodGraya.dll
+C:\Users\Jadwiga\git_repository\Algorytmy\kodGraya\Visual Studio\kodGraya\bin\Debug\net6.0\kodGraya.pdb
+C:\Users\Jadwiga\git_repository\Algorytmy\kodGraya\Visual Studio\kodGraya\obj\Debug\net6.0\kodGraya.csproj.AssemblyReference.cache
+C:\Users\Jadwiga\git_repository\Algorytmy\kodGraya\Visual Studio\kodGraya\obj\Debug\net6.0\kodGraya.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jadwiga\git_repository\Algorytmy\kodGraya\Visual Studio\kodGraya\obj\Debug\net6.0\kodGraya.AssemblyInfoInputs.cache
+C:\Users\Jadwiga\git_repository\Algorytmy\kodGraya\Visual Studio\kodGraya\obj\Debug\net6.0\kodGraya.AssemblyInfo.cs
+C:\Users\Jadwiga\git_repository\Algorytmy\kodGraya\Visual Studio\kodGraya\obj\Debug\net6.0\kodGraya.csproj.CoreCompileInputs.cache
+C:\Users\Jadwiga\git_repository\Algorytmy\kodGraya\Visual Studio\kodGraya\obj\Debug\net6.0\kodGraya.dll
+C:\Users\Jadwiga\git_repository\Algorytmy\kodGraya\Visual Studio\kodGraya\obj\Debug\net6.0\refint\kodGraya.dll
+C:\Users\Jadwiga\git_repository\Algorytmy\kodGraya\Visual Studio\kodGraya\obj\Debug\net6.0\kodGraya.pdb
+C:\Users\Jadwiga\git_repository\Algorytmy\kodGraya\Visual Studio\kodGraya\obj\Debug\net6.0\kodGraya.genruntimeconfig.cache
+C:\Users\Jadwiga\git_repository\Algorytmy\kodGraya\Visual Studio\kodGraya\obj\Debug\net6.0\ref\kodGraya.dll
+>>>>>>> 7a4e3b40a2648490e6a39ca6f2352f3beedd7ebb

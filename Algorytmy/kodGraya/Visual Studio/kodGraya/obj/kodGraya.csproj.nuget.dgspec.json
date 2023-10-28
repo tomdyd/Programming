@@ -1,0 +1,77 @@
+{
+  "format": 1,
+  "restore": {
+<<<<<<< HEAD
+    "C:\\Users\\Tomek\\git_repository\\algorytmy\\kodGraya\\Visual Studio\\kodGraya\\kodGraya.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Tomek\\git_repository\\algorytmy\\kodGraya\\Visual Studio\\kodGraya\\kodGraya.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Tomek\\git_repository\\algorytmy\\kodGraya\\Visual Studio\\kodGraya\\kodGraya.csproj",
+        "projectName": "kodGraya",
+        "projectPath": "C:\\Users\\Tomek\\git_repository\\algorytmy\\kodGraya\\Visual Studio\\kodGraya\\kodGraya.csproj",
+        "packagesPath": "C:\\Users\\Tomek\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Tomek\\git_repository\\algorytmy\\kodGraya\\Visual Studio\\kodGraya\\obj\\",
+=======
+    "C:\\Users\\Jadwiga\\git_repository\\Algorytmy\\kodGraya\\Visual Studio\\kodGraya\\kodGraya.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Jadwiga\\git_repository\\Algorytmy\\kodGraya\\Visual Studio\\kodGraya\\kodGraya.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Jadwiga\\git_repository\\Algorytmy\\kodGraya\\Visual Studio\\kodGraya\\kodGraya.csproj",
+        "projectName": "kodGraya",
+        "projectPath": "C:\\Users\\Jadwiga\\git_repository\\Algorytmy\\kodGraya\\Visual Studio\\kodGraya\\kodGraya.csproj",
+        "packagesPath": "C:\\Users\\Jadwiga\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jadwiga\\git_repository\\Algorytmy\\kodGraya\\Visual Studio\\kodGraya\\obj\\",
+>>>>>>> 7a4e3b40a2648490e6a39ca6f2352f3beedd7ebb
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Jadwiga\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

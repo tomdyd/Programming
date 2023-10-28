@@ -1,0 +1,15 @@
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\algorytmHerona\algorytmHerona\bin\Debug\net6.0\algorytmHerona.exe
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\algorytmHerona\algorytmHerona\bin\Debug\net6.0\algorytmHerona.deps.json
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\algorytmHerona\algorytmHerona\bin\Debug\net6.0\algorytmHerona.runtimeconfig.json
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\algorytmHerona\algorytmHerona\bin\Debug\net6.0\algorytmHerona.dll
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\algorytmHerona\algorytmHerona\bin\Debug\net6.0\algorytmHerona.pdb
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\algorytmHerona\algorytmHerona\obj\Debug\net6.0\algorytmHerona.csproj.AssemblyReference.cache
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\algorytmHerona\algorytmHerona\obj\Debug\net6.0\algorytmHerona.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\algorytmHerona\algorytmHerona\obj\Debug\net6.0\algorytmHerona.AssemblyInfoInputs.cache
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\algorytmHerona\algorytmHerona\obj\Debug\net6.0\algorytmHerona.AssemblyInfo.cs
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\algorytmHerona\algorytmHerona\obj\Debug\net6.0\algorytmHerona.csproj.CoreCompileInputs.cache
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\algorytmHerona\algorytmHerona\obj\Debug\net6.0\algorytmHerona.dll
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\algorytmHerona\algorytmHerona\obj\Debug\net6.0\refint\algorytmHerona.dll
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\algorytmHerona\algorytmHerona\obj\Debug\net6.0\algorytmHerona.pdb
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\algorytmHerona\algorytmHerona\obj\Debug\net6.0\algorytmHerona.genruntimeconfig.cache
+C:\Users\Tomek\Desktop\Algorytmy - struktury fanych i techniki programowania\algorytmHerona\algorytmHerona\obj\Debug\net6.0\ref\algorytmHerona.dll
