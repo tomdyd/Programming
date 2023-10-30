@@ -13,7 +13,7 @@ formEl.addEventListener("submit", (event) => {
   const data = Object.fromEntries(formData);
   console.log(data);
 
-  fetch("https://localhost:7283/api/valves", {
+  fetch("http://localhost:5000", {
     method: "POST",
     headers: {
       Accept: "application/json",
@@ -29,6 +29,43 @@ function GetId() {
   let id = document.getElementById("valveId").value;
   return id;
 }
+
+function GetName() {
+  let name = document.getElementById("ValveName").value;
+  return name;
+}
+
+const btnName = document.querySelector('.GetValveByName')
+
+btnName.addEventListener("click", function GetValveByName() {
+  name = GetName();
+  fetch(`http://localhost:5000/api/Valves/Name?name=${name}`, {
+    method: "GET",
+  })
+    .then((res) => {
+      console.log(res);
+      return res.json();
+    })
+    .then((data) => {
+      console.log(data);
+      const markup = `<li>
+                      Index: ${data._index}
+                      <br> Name: ${data._fullName}
+                      <br> Supplier: ${data._supplier}
+                      <br> Acceptance date: ${data._acceptanceDate}
+                      <br> Expiration date: ${data._expiriationDate}
+                      <br> Amount: ${data._amount}
+                      <br> Storage place: ${data._storagePlace}
+                      <br> Tube length: ${data._tubeLength}
+                      <br> Destiny: ${data._destiny}</li>`;
+
+      document
+        .querySelector(".valvesList")
+        .insertAdjacentHTML("beforeend", markup);
+    });
+});
+
+//#region GetValveById
 
 const element = document.querySelector(".GetValveById");
 
@@ -59,6 +96,7 @@ element.addEventListener("click", function GetValveById() {
         .insertAdjacentHTML("beforeend", markup);
     });
 });
+//#endregion
 
 const element1 = document.querySelector(".GetValves");
 

@@ -25,12 +25,17 @@ formEl.addEventListener("submit", (event) => {
   });
 });
 
+function GetId() {
+  let id = document.getElementById("valveId").value;
+  return id;
+}
+
 const element = document.querySelector(".GetValveById");
 
-const id = "6536b21e446f5c5a13d48e59";
-
-element.addEventListener("click", function GetValve() {
-  fetch(`http://localhost:5000/api/Valves/${id}`, {
+element.addEventListener("click", function GetValveById() {
+  Name = GetId();
+  console.log(Name);
+  fetch(`https://localhost:7283/api/Valves/Name?name=${Name}}`, {
     method: "GET",
   })
     .then((res) => {

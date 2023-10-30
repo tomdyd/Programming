@@ -27,8 +27,21 @@ namespace LabStore.Controllers
         public async Task<ActionResult<Valves>> GetById(string id)
         {
             var valve = await _valvesService.GetAsyncById(id);
-            
-            if(valve == null) 
+
+            if (valve == null)
+            {
+                return NotFound();
+            }
+
+            return Ok(valve);
+        }
+
+        [HttpGet("Name")]
+        public async Task<ActionResult<Valves>> GetByName(string name)
+        {
+            var valve = await _valvesService.GetAsyncByName(name);
+
+            if (valve == null)
             {
                 return NotFound();
             }
@@ -49,7 +62,7 @@ namespace LabStore.Controllers
         {
             var valve = await _valvesService.GetAsyncById(id);
 
-            if(valve is null)
+            if (valve is null)
             {
                 return NotFound();
             }
@@ -66,7 +79,7 @@ namespace LabStore.Controllers
         {
             var valve = await _valvesService.GetAsyncById(id);
 
-            if(valve is null)
+            if (valve is null)
             {
                 return NotFound();
             }

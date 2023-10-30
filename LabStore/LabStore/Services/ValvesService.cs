@@ -33,10 +33,9 @@ namespace LabStore.Services
             return await _valvesCollection.Find(x => x._id == id).FirstOrDefaultAsync();
         }
 
-        public async Task<Valves> GetAsyncByName(string name)
-        {
-            return await _valvesCollection.Find(x => x._fullName == name).FirstOrDefaultAsync();
-        }
+        public async Task<Valves> GetAsyncByName(string name) =>        
+            await _valvesCollection.Find(x => x._fullName == name).FirstOrDefaultAsync();
+        
 
         public async Task CreateAsync(Valves newValve)
         {
