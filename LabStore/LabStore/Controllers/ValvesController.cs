@@ -23,7 +23,7 @@ namespace LabStore.Controllers
         {
             return await _valvesService.GetAsync();
         }
-        [HttpGet("endpoint/{id:length(24)}")]
+        [HttpGet("{id:length(24)}")]
         public async Task<ActionResult<Valves>> GetById(string id)
         {
             var valve = await _valvesService.GetAsyncById(id);
