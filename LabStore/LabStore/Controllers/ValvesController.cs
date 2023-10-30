@@ -49,6 +49,32 @@ namespace LabStore.Controllers
             return Ok(valve);
         }
 
+        [HttpGet("{index}")]
+        public async Task<ActionResult<Valves>> GetByIndex(string index)
+        {
+            var valve = await _valvesService.GetAsyncByIndex(index);
+
+            if (valve == null)
+            {
+                return NotFound();
+            }
+
+            return Ok(valve);
+        }
+
+        [HttpGet("Destiny")]
+        public async Task<ActionResult<Valves>> GetByDestiny(string destiny)
+        {
+            var valve = await _valvesService.GetAsyncByDestiny(destiny);
+
+            if (valve == null)
+            {
+                return NotFound();
+            }
+
+            return Ok(valve);
+        }
+
         [HttpPost]
         public async Task<ActionResult<Valves>> Create(Valves newValve)
         {

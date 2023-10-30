@@ -3,7 +3,8 @@
  *  Created On : Sun Oct 29 2023
  *  File : site.js
  *******************************************/
-const formEl = document.querySelector(".canForm");
+//#region Post data
+const formEl = document.querySelector(".valveForm");
 
 formEl.addEventListener("submit", (event) => {
   event.preventDefault();
@@ -13,7 +14,7 @@ formEl.addEventListener("submit", (event) => {
   const data = Object.fromEntries(formData);
   console.log(data);
 
-  fetch("http://localhost:5000", {
+  fetch("http://localhost:5000/api/Valves", {
     method: "POST",
     headers: {
       Accept: "application/json",
@@ -24,6 +25,7 @@ formEl.addEventListener("submit", (event) => {
     location.reload();
   });
 });
+//#endregion
 
 function GetId() {
   let id = document.getElementById("valveId").value;
@@ -31,10 +33,53 @@ function GetId() {
 }
 
 function GetName() {
-  let name = document.getElementById("ValveName").value;
+  let name = document.getElementById("valveName").value;
   return name;
 }
 
+function GetIndex() {
+  let index = document.getElementById("valveIndex").value
+  return index
+}
+
+function GetDestiny() {
+  let destiny = document.getElementById("valveDestiny").value
+  return destiny
+}
+
+//#region GetValveByIndex
+const btnIndex = document.querySelector('.GetValveByIndex')
+
+btnIndex.addEventListener("click", function GetValveByIndex() {
+  index = GetIndex();
+  fetch(`http://localhost:5000/api/Valves/${index}`, {
+    method: "GET",
+  })
+    .then((res) => {
+      console.log(res);
+      return res.json();
+    })
+    .then((data) => {
+      console.log(data);
+      const markup = `<li>
+                      Index: ${data._index}
+                      <br> Name: ${data._fullName}
+                      <br> Supplier: ${data._supplier}
+                      <br> Acceptance date: ${data._acceptanceDate}
+                      <br> Expiration date: ${data._expiriationDate}
+                      <br> Amount: ${data._amount}
+                      <br> Storage place: ${data._storagePlace}
+                      <br> Tube length: ${data._tubeLength}
+                      <br> Destiny: ${data._destiny}</li>`;
+
+      document
+        .querySelector(".valvesList")
+        .insertAdjacentHTML("beforeend", markup);
+    });
+});
+//#endregion
+
+//#region GetValveByName
 const btnName = document.querySelector('.GetValveByName')
 
 btnName.addEventListener("click", function GetValveByName() {
@@ -64,14 +109,14 @@ btnName.addEventListener("click", function GetValveByName() {
         .insertAdjacentHTML("beforeend", markup);
     });
 });
+//#endregion
 
-//#region GetValveById
+//#region GetValveByDestiny
+const btnDestiny = document.querySelector('.GetValveByDestiny')
 
-const element = document.querySelector(".GetValveById");
-
-element.addEventListener("click", function GetValveById() {
-  id = GetId();
-  fetch(`http://localhost:5000/api/Valves/${id}`, {
+btnDestiny.addEventListener("click", function GetValveByDestiny() {
+  destiny = GetDestiny();
+  fetch(`http://localhost:5000/api/Valves/Destiny?destiny=${destiny}`, {
     method: "GET",
   })
     .then((res) => {
@@ -80,24 +125,27 @@ element.addEventListener("click", function GetValveById() {
     })
     .then((data) => {
       console.log(data);
-      const markup = `<li>
-                  Index: ${data._index}
-                  <br> Name: ${data._fullName}
-                  <br> Supplier: ${data._supplier}
-                  <br> Acceptance date: ${data._acceptanceDate}
-                  <br> Expiration date: ${data._expiriationDate}
-                  <br> Amount: ${data._amount}
-                  <br> Storage place: ${data._storagePlace}
-                  <br> Tube length: ${data._tubeLength}
-                  <br> Destiny: ${data._destiny}</li>`;
+      data.forEach((element) => {
+        const markup = `<li>
+                      Index: ${element._index}
+                      <br> Name: ${element._fullName}
+                      <br> Supplier: ${element._supplier}
+                      <br> Acceptance date: ${element._acceptanceDate}
+                      <br> Expiration date: ${element._expiriationDate}
+                      <br> Amount: ${element._amount}
+                      <br> Storage place: ${element._storagePlace}
+                      <br> Tube length: ${element._tubeLength}
+                      <br> Destiny: ${element._destiny}</li>`;
 
-      document
-        .querySelector(".valvesList")
-        .insertAdjacentHTML("beforeend", markup);
+        document
+          .querySelector(".valvesList")
+          .insertAdjacentHTML("beforeend", markup);
+      })
     });
 });
 //#endregion
 
+//#region GetValves
 const element1 = document.querySelector(".GetValves");
 
 element1.addEventListener("click", function GetValves() {
@@ -128,6 +176,7 @@ element1.addEventListener("click", function GetValves() {
       });
     });
 });
+//#endregion
 
 // const menuElement = document.getElementById('menu');
 // const menuToggleElement = document.getElementById('toggle-menu');

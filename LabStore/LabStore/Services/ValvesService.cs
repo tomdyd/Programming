@@ -35,7 +35,12 @@ namespace LabStore.Services
 
         public async Task<Valves> GetAsyncByName(string name) =>        
             await _valvesCollection.Find(x => x._fullName == name).FirstOrDefaultAsync();
-        
+
+        public async Task<Valves> GetAsyncByIndex(string index) =>
+            await _valvesCollection.Find(x => x._index == index).FirstOrDefaultAsync();
+
+        public async Task<List<Valves>> GetAsyncByDestiny(string destiny) =>
+            await _valvesCollection.Find(x => x._destiny == destiny).ToListAsync();        
 
         public async Task CreateAsync(Valves newValve)
         {

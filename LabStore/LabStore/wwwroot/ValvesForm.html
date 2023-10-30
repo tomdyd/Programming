@@ -13,7 +13,7 @@
 <body>
   <h1 class="title">Valves</h1>
   <fieldset>
-    <form class="canForm">
+    <form class="valveForm">
       <label for="_index">Index</label>
       <input id="_index" type="text" name="_index" placeholder="Index" />
 
@@ -49,21 +49,32 @@
     <a href="#valves"><button type="submit" id="GetValves" class="GetValves">
         Get All Valves
       </button></a>
-    <div class="idSearch">
-      <a href="#valves">
-        <button type="submit" id="GetValveById" class="GetValveById">
-          Get Valve by id
-        </button></a>
-      <input type="text" id="valveId" class="valveId" placeholder="put id" />
-    </div>
 
     <div class="nameSearch">
       <a href="#valves">
         <button type="submit" id="GetValveByName" class="GetValveByName">
           Get Valve by Name
         </button></a>
-      <input type="text" id="ValveName" class="ValveName" placeholder="put name" />
+      <input type="text" id="valveName" class="valveName" placeholder="put name" />
     </div>
+  </div>
+
+  <div class="indexSearch">
+    <a href="#valves">
+      <button type="submit" id="GetValveByIndex" class="GetValveByIndex">
+        Get Valve by Index
+      </button></a>
+    <input type="text" id="valveIndex" class="valveIndex" placeholder="put index" />
+  </div>
+  </div>
+
+  <div class="destinySearch">
+    <a href="#valves">
+      <button type="submit" id="GetValveByDestiny" class="GetValveByDestiny">
+        Get Valve by Index
+      </button></a>
+    <input type="text" id="valveDestiny" class="valveDestiny" placeholder="put destiny" />
+  </div>
   </div>
 
   <h2 id="valves">Valves:</h2>
