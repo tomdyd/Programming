@@ -1,4 +1,5 @@
-﻿.canForm {
+﻿.canForm,
+.valveForm {
     display: flex;
     flex-direction: column;
     align-items: center;

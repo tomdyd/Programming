@@ -100,17 +100,17 @@ namespace LabStore.Controllers
             return Ok(updatedValve);
         }
 
-        [HttpDelete("{id}")]
-        public async Task<IActionResult> Delete(string id)
+        [HttpDelete("{index}")]
+        public async Task<IActionResult> Delete(string index)
         {
-            var valve = await _valvesService.GetAsyncById(id);
+            var valve = await _valvesService.GetAsyncByIndex(index);
 
             if (valve is null)
             {
                 return NotFound();
             }
 
-            await _valvesService.DeleteAsync(id);
+            await _valvesService.DeleteAsync(index);
 
             return NoContent();
         }

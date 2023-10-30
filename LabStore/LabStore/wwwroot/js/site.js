@@ -37,8 +37,8 @@ function GetName() {
   return name;
 }
 
-function GetIndex() {
-  let index = document.getElementById("valveIndex").value
+function GetIndex(elementId) {
+  let index = document.getElementById(elementId).value
   return index
 }
 
@@ -47,12 +47,18 @@ function GetDestiny() {
   return destiny
 }
 
-//#region GetValveByIndex
-const btnIndex = document.querySelector('.GetValveByIndex')
+const list = document.getElementById("valvesList");
 
-btnIndex.addEventListener("click", function GetValveByIndex() {
-  index = GetIndex();
-  fetch(`http://localhost:5000/api/Valves/${index}`, {
+function GetByIndex(url, elementId) {
+  let liElements = list.getElementsByTagName('li')
+
+  while (liElements.length > 0) {
+    list.removeChild(liElements[0]);
+    console.log('obiekt usuniety');
+  }
+
+  index = GetIndex(elementId);
+  fetch(`http://localhost:5000/api/${url}/${index}`, {
     method: "GET",
   })
     .then((res) => {
@@ -76,15 +82,18 @@ btnIndex.addEventListener("click", function GetValveByIndex() {
         .querySelector(".valvesList")
         .insertAdjacentHTML("beforeend", markup);
     });
-});
-//#endregion
+};
 
-//#region GetValveByName
-const btnName = document.querySelector('.GetValveByName')
+function GetByName(url) {
+  let liElements = list.getElementsByTagName('li')
 
-btnName.addEventListener("click", function GetValveByName() {
+  while (liElements.length > 0) {
+    list.removeChild(liElements[0]);
+    console.log('obiekt usuniety');
+  }
+
   name = GetName();
-  fetch(`http://localhost:5000/api/Valves/Name?name=${name}`, {
+  fetch(`http://localhost:5000/api/${url}/Name?name=${name}`, {
     method: "GET",
   })
     .then((res) => {
@@ -108,15 +117,18 @@ btnName.addEventListener("click", function GetValveByName() {
         .querySelector(".valvesList")
         .insertAdjacentHTML("beforeend", markup);
     });
-});
-//#endregion
+};
 
-//#region GetValveByDestiny
-const btnDestiny = document.querySelector('.GetValveByDestiny')
+function GetByDestiny(url) {
+  let liElements = list.getElementsByTagName('li')
 
-btnDestiny.addEventListener("click", function GetValveByDestiny() {
+  while (liElements.length > 0) {
+    list.removeChild(liElements[0]);
+    console.log('obiekt usuniety');
+  }
+
   destiny = GetDestiny();
-  fetch(`http://localhost:5000/api/Valves/Destiny?destiny=${destiny}`, {
+  fetch(`http://localhost:5000/api/${url}/Destiny?destiny=${destiny}`, {
     method: "GET",
   })
     .then((res) => {
@@ -142,14 +154,17 @@ btnDestiny.addEventListener("click", function GetValveByDestiny() {
           .insertAdjacentHTML("beforeend", markup);
       })
     });
-});
-//#endregion
+};
 
-//#region GetValves
-const element1 = document.querySelector(".GetValves");
+function GetAll(url) {
+  let liElements = list.getElementsByTagName('li')
 
-element1.addEventListener("click", function GetValves() {
-  fetch(`http://localhost:5000/api/Valves/`, {
+  while (liElements.length > 0) {
+    list.removeChild(liElements[0]);
+    console.log('obiekt usuniety');
+  }
+
+  fetch(`http://localhost:5000/api/${url}/`, {
     method: "GET",
   })
     .then((res) => {
@@ -175,12 +190,78 @@ element1.addEventListener("click", function GetValves() {
           .insertAdjacentHTML("beforeend", markup);
       });
     });
-});
-//#endregion
+};
 
-// const menuElement = document.getElementById('menu');
-// const menuToggleElement = document.getElementById('toggle-menu');
+function Clear() {
+  let liElements = list.getElementsByTagName('li')
+  while (liElements.length > 0) {
+    list.removeChild(liElements[0]);
+    console.log('obiekt usuniety');
+  }
+}
 
-// menuToggleElement.addEventListener('click', function () {
-//     menuElement.classList.toggle('visible');
-// });
+function Delete(url, elementId) {
+  let index = GetIndex(elementId);
+
+  GetByIndex(url, elementId)
+  fetch(`http://localhost:5000/api/${url}/${index}`, {
+    method: "DELETE",
+  })
+}
+
+function Update(url, elementId) {
+  let index = GetIndex(elementId);
+
+  index = GetIndex(elementId);
+  fetch(`http://localhost:5000/api/${url}/${index}`, {
+    method: "GET",
+  })
+    .then((res) => {
+      console.log(res);
+      return res.json();
+    })
+    .then((data) => {
+      console.log(data);
+      const markup = `<fieldset>
+                      <form class='valveForm1'>
+                      Name:
+                      <br> <input type='text' placeholder='put new name'>
+                      <br> Expiriation date:
+                      <br> <input type='date'>
+                      <br> Amount:
+                      <br> <input type='text' placeholder='put new amount'>
+                      <br> Storage place:
+                      <br> <input type='text' placeholder='put new storage place'>
+                      <br> Destiny:
+                      <br> <input type='text' placeholder='put new destiny'>
+                      <br> <button type='submit' id='submitUpdate'>Submit</button>
+                      </form>
+                      </fieldset>`;
+
+      document
+        .querySelector(".valvesList")
+        .insertAdjacentHTML("beforeend", markup);
+    });
+
+  const formEl1 = document.querySelector(".valveForm1");
+
+  formEl1.addEventListener("submit", (event) => {
+    event.preventDefault();
+
+    const formData = new FormData(formEl);
+
+    const data = Object.fromEntries(formData);
+    console.log(data);
+
+    fetch(`http://localhost:5000/api/${url}/${elementId}`, {
+      method: "PUT",
+      headers: {
+        Accept: "application/json",
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(data),
+    }).then(() => {
+      location.reload();
+    });
+  });
+}

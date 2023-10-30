@@ -41,40 +41,60 @@
       <label for="_destiny">Destiny</label>
       <input id="_destiny" type="text" name="_destiny" placeholder="Destiny" />
 
-      <button type="submit" id="submit">Submit</button>
+      <button onclick="PostData()" type="submit" id="submit">Submit</button>
     </form>
   </fieldset>
 
   <div class="buttons">
-    <a href="#valves"><button type="submit" id="GetValves" class="GetValves">
-        Get All Valves
+
+    <a href="#valves"><button onclick="GetAll('Valves')" type="submit" id="GetValves" class="GetValves">
+        Get all valves
       </button></a>
 
     <div class="nameSearch">
       <a href="#valves">
-        <button type="submit" id="GetValveByName" class="GetValveByName">
-          Get Valve by Name
+        <button onclick="GetByName('Valves')" type="submit" id="GetValveByName" class="GetValveByName">
+          Get valve by name
         </button></a>
       <input type="text" id="valveName" class="valveName" placeholder="put name" />
     </div>
-  </div>
 
-  <div class="indexSearch">
-    <a href="#valves">
-      <button type="submit" id="GetValveByIndex" class="GetValveByIndex">
-        Get Valve by Index
-      </button></a>
-    <input type="text" id="valveIndex" class="valveIndex" placeholder="put index" />
-  </div>
-  </div>
+    <div class="indexSearch">
+      <a href="#valves">
+        <button onclick="GetByIndex('Valves', 'valveIndex')" type="submit" id="GetValveByIndex" class="GetValveByIndex">
+          Get valve by index
+        </button></a>
+      <input type="text" id="valveIndex" class="valveIndex" placeholder="put index" />
+    </div>
 
-  <div class="destinySearch">
-    <a href="#valves">
-      <button type="submit" id="GetValveByDestiny" class="GetValveByDestiny">
-        Get Valve by Index
-      </button></a>
-    <input type="text" id="valveDestiny" class="valveDestiny" placeholder="put destiny" />
-  </div>
+    <div class="destinySearch">
+      <a href="#valves">
+        <button onclick="GetByDestiny('Valves')" type="submit" id="GetValveByDestiny" class="GetValveByDestiny">
+          Get valve by destiny
+        </button></a>
+      <input type="text" id="valveDestiny" class="valveDestiny" placeholder="put destiny" />
+    </div>
+
+    <div>
+      <button onclick="Clear()" type="submit" id="clear" class="clear">
+        Clear
+      </button>
+    </div>
+
+    <div>
+      <button onclick="Delete('Valves', 'delete')" type="submit" id="btnDelete" class="btnDelete">
+        Delete
+      </button>
+      <input type="text" id="delete" class="delete" placeholder="put index" />
+    </div>
+
+    <div>
+      <button onclick="Update('Valves', 'update')" type="submit" id="btnDelete" class="btnDelete">
+        Update
+      </button>
+      <input type="text" id="update" class="update" placeholder="put index" />
+    </div>
+
   </div>
 
   <h2 id="valves">Valves:</h2>

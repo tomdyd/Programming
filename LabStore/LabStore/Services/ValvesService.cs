@@ -52,9 +52,9 @@ namespace LabStore.Services
             await _valvesCollection.ReplaceOneAsync(x => x._id == id, updatedValve);
         }
 
-        public async Task DeleteAsync(string id)
+        public async Task DeleteAsync(string index)
         {
-            await _valvesCollection.DeleteOneAsync(x => x._id == id);
+            await _valvesCollection.DeleteOneAsync(x => x._index == index);
         }
     }
 }
