@@ -25,10 +25,6 @@
       "PackagePath": "staticwebassets\\styles\\styles.css"
     },
     {
-      "Id": "D:\\Dane\\Programming\\LabStore\\LabStore\\wwwroot\\test.html",
-      "PackagePath": "staticwebassets\\test.html"
-    },
-    {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.LabStore.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },

@@ -21,9 +21,9 @@ formEl.addEventListener("submit", (event) => {
       "Content-Type": "application/json",
     },
     body: JSON.stringify(data),
-  }).then(() => {
+  }) /*.then(() => {
     location.reload();
-  });
+  });*/
 });
 //#endregion
 
@@ -222,8 +222,7 @@ function Update(url, elementId) {
     })
     .then((data) => {
       console.log(data);
-      const markup = `<fieldset>
-                      <form class='valveForm1'>
+      const markup = `
                       Name:
                       <br> <input type='text' placeholder='put new name'>
                       <br> Expiriation date:
@@ -235,33 +234,31 @@ function Update(url, elementId) {
                       <br> Destiny:
                       <br> <input type='text' placeholder='put new destiny'>
                       <br> <button type='submit' id='submitUpdate'>Submit</button>
-                      </form>
-                      </fieldset>`;
+                      `;
 
       document
-        .querySelector(".valvesList")
+        .querySelector(".valveForm1")
         .insertAdjacentHTML("beforeend", markup);
+      const formEl = document.querySelector(".valveForm1");
+
+      formEl.addEventListener("submit", (event) => {
+        event.preventDefault();
+
+        const formData = new FormData(formEl);
+
+        const data = Object.fromEntries(formData);
+        console.log(data);
+
+        fetch("http://localhost:5000/api/Valves", {
+          method: "PUT",
+          headers: {
+            Accept: "application/json",
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(data),
+        }) /*.then(() => {
+          location.reload();
+        });*/
+      });
     });
-
-  const formEl1 = document.querySelector(".valveForm1");
-
-  formEl1.addEventListener("submit", (event) => {
-    event.preventDefault();
-
-    const formData = new FormData(formEl);
-
-    const data = Object.fromEntries(formData);
-    console.log(data);
-
-    fetch(`http://localhost:5000/api/${url}/${elementId}`, {
-      method: "PUT",
-      headers: {
-        Accept: "application/json",
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(data),
-    }).then(() => {
-      location.reload();
-    });
-  });
 }

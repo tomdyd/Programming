@@ -83,10 +83,10 @@ namespace LabStore.Controllers
             return CreatedAtAction(nameof(Get), new { id = newValve._id }, newValve);
         }
 
-        [HttpPut("{id}")]
-        public async Task<IActionResult> Update(Valves updatedValve, string id)
+        [HttpPut("{index}")]
+        public async Task<IActionResult> Update(Valves updatedValve, string index)
         {
-            var valve = await _valvesService.GetAsyncById(id);
+            var valve = await _valvesService.GetAsyncByIndex(index);
 
             if (valve is null)
             {
@@ -95,7 +95,7 @@ namespace LabStore.Controllers
 
             updatedValve._id = valve._id;
 
-            await _valvesService.UpdateAsync(updatedValve, id);
+            await _valvesService.UpdateAsync(updatedValve, index);
 
             return Ok(updatedValve);
         }

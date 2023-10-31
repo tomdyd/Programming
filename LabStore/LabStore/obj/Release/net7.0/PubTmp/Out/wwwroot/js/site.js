@@ -37,8 +37,8 @@ function GetName() {
   return name;
 }
 
-function GetIndex() {
-  let index = document.getElementById("valveIndex").value
+function GetIndex(elementId) {
+  let index = document.getElementById(elementId).value
   return index
 }
 
@@ -49,7 +49,7 @@ function GetDestiny() {
 
 const list = document.getElementById("valvesList");
 
-function GetByIndex(url) {
+function GetByIndex(url, elementId) {
   let liElements = list.getElementsByTagName('li')
 
   while (liElements.length > 0) {
@@ -57,7 +57,7 @@ function GetByIndex(url) {
     console.log('obiekt usuniety');
   }
 
-  index = GetIndex();
+  index = GetIndex(elementId);
   fetch(`http://localhost:5000/api/${url}/${index}`, {
     method: "GET",
   })
@@ -200,9 +200,74 @@ function Clear() {
   }
 }
 
-function Delete(url) {
-  let index = GetIndex();
+function Delete(url, elementId) {
+  let index = GetIndex(elementId);
+
+  GetByIndex(url, elementId)
   fetch(`http://localhost:5000/api/${url}/${index}`, {
     method: "DELETE",
   })
+}
+
+function Update(url, elementId) {
+  let index = GetIndex(elementId);
+
+  index = GetIndex(elementId);
+  fetch(`http://localhost:5000/api/${url}/${index}`, {
+    method: "GET",
+  })
+    .then((res) => {
+      console.log(res);
+      return res.json();
+    })
+    .then((data) => {
+      console.log(data);
+      const markup = `
+                      Name:
+                      <br> <input type='text' placeholder='put new name'>
+                      <br> Expiriation date:
+                      <br> <input type='date'>
+                      <br> Amount:
+                      <br> <input type='text' placeholder='put new amount'>
+                      <br> Storage place:
+                      <br> <input type='text' placeholder='put new storage place'>
+                      <br> Destiny:
+                      <br> <input type='text' placeholder='put new destiny'>
+                      <br> <button type='submit' id='submitUpdate'>Submit</button>
+                      `;
+
+      document
+        .querySelector(".valveForm1")
+        .insertAdjacentHTML("beforeend", markup);
+      const formEl = document.querySelector(".valveForm1");
+
+      formEl.addEventListener("submit", (event) => {
+        event.preventDefault();
+        console.log('jestem tu');
+
+        const formData = new FormData(formEl);
+
+        const dataFromForm = Object.fromEntries(formData);
+        console.log(dataFromForm);
+        dataFromForm._index = data._index
+        dataFromForm._supplier = data._supplier
+        dataFromForm._acceptanceDate = data._acceptanceDate
+        dataFromForm._tubeLength = data._tubeLength
+
+        console.log(url, index);
+
+        fetch(`http://localhost:5000/api/${url}/${index}`, {
+          method: "PUT",
+          headers: {
+            Accept: "application/json",
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(data),
+        }).then(() => {
+          location.reload();
+        });
+      });
+    });
+
+
 }

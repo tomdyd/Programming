@@ -47,9 +47,9 @@ namespace LabStore.Services
             await _valvesCollection.InsertOneAsync(newValve);
         }
 
-        public async Task UpdateAsync(Valves updatedValve, string id)
+        public async Task UpdateAsync(Valves updatedValve, string index)
         {
-            await _valvesCollection.ReplaceOneAsync(x => x._id == id, updatedValve);
+            await _valvesCollection.ReplaceOneAsync(x => x._index == index, updatedValve);
         }
 
         public async Task DeleteAsync(string index)

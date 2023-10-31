@@ -41,7 +41,7 @@
       <label for="_destiny">Destiny</label>
       <input id="_destiny" type="text" name="_destiny" placeholder="Destiny" />
 
-      <button type="submit" id="submit">Submit</button>
+      <button onclick="PostData()" type="submit" id="submit">Submit</button>
     </form>
   </fieldset>
 
@@ -61,7 +61,7 @@
 
     <div class="indexSearch">
       <a href="#valves">
-        <button onclick="GetByIndex('Valves')" type="submit" id="GetValveByIndex" class="GetValveByIndex">
+        <button onclick="GetByIndex('Valves', 'valveIndex')" type="submit" id="GetValveByIndex" class="GetValveByIndex">
           Get valve by index
         </button></a>
       <input type="text" id="valveIndex" class="valveIndex" placeholder="put index" />
@@ -82,10 +82,17 @@
     </div>
 
     <div>
-      <button onclick="Delete('Valves')" type="submit" id="btnDelete" class="btnDelete">
+      <button onclick="Delete('Valves', 'delete')" type="submit" id="btnDelete" class="btnDelete">
         Delete
       </button>
       <input type="text" id="delete" class="delete" placeholder="put index" />
+    </div>
+
+    <div>
+      <button onclick="Update('Valves', 'update')" type="submit" id="btnDelete" class="btnDelete">
+        Update
+      </button>
+      <input type="text" id="update" class="update" placeholder="put index" />
     </div>
 
   </div>
@@ -94,6 +101,11 @@
   <ul id="valvesList" class="valvesList">
 
   </ul>
+  <fieldset>
+    <form id="valveForm1" , class="valveForm1">
+
+    </form>
+  </fieldset>
 
   <script src="js/site.js"></script>
 </body>
