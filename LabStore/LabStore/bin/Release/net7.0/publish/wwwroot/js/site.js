@@ -21,9 +21,9 @@ formEl.addEventListener("submit", (event) => {
       "Content-Type": "application/json",
     },
     body: JSON.stringify(data),
-  }).then(() => {
+  }); /*.then(() => {
     location.reload();
-  });
+  });*/
 });
 //#endregion
 
@@ -38,23 +38,23 @@ function GetName() {
 }
 
 function GetIndex(elementId) {
-  let index = document.getElementById(elementId).value
-  return index
+  let index = document.getElementById(elementId).value;
+  return index;
 }
 
 function GetDestiny() {
-  let destiny = document.getElementById("valveDestiny").value
-  return destiny
+  let destiny = document.getElementById("valveDestiny").value;
+  return destiny;
 }
 
 const list = document.getElementById("valvesList");
 
 function GetByIndex(url, elementId) {
-  let liElements = list.getElementsByTagName('li')
+  let liElements = list.getElementsByTagName("li");
 
   while (liElements.length > 0) {
     list.removeChild(liElements[0]);
-    console.log('obiekt usuniety');
+    console.log("obiekt usuniety");
   }
 
   index = GetIndex(elementId);
@@ -82,14 +82,14 @@ function GetByIndex(url, elementId) {
         .querySelector(".valvesList")
         .insertAdjacentHTML("beforeend", markup);
     });
-};
+}
 
 function GetByName(url) {
-  let liElements = list.getElementsByTagName('li')
+  let liElements = list.getElementsByTagName("li");
 
   while (liElements.length > 0) {
     list.removeChild(liElements[0]);
-    console.log('obiekt usuniety');
+    console.log("obiekt usuniety");
   }
 
   name = GetName();
@@ -117,14 +117,14 @@ function GetByName(url) {
         .querySelector(".valvesList")
         .insertAdjacentHTML("beforeend", markup);
     });
-};
+}
 
 function GetByDestiny(url) {
-  let liElements = list.getElementsByTagName('li')
+  let liElements = list.getElementsByTagName("li");
 
   while (liElements.length > 0) {
     list.removeChild(liElements[0]);
-    console.log('obiekt usuniety');
+    console.log("obiekt usuniety");
   }
 
   destiny = GetDestiny();
@@ -152,16 +152,16 @@ function GetByDestiny(url) {
         document
           .querySelector(".valvesList")
           .insertAdjacentHTML("beforeend", markup);
-      })
+      });
     });
-};
+}
 
 function GetAll(url) {
-  let liElements = list.getElementsByTagName('li')
+  let liElements = list.getElementsByTagName("li");
 
   while (liElements.length > 0) {
     list.removeChild(liElements[0]);
-    console.log('obiekt usuniety');
+    console.log("obiekt usuniety");
   }
 
   fetch(`http://localhost:5000/api/${url}/`, {
@@ -190,23 +190,23 @@ function GetAll(url) {
           .insertAdjacentHTML("beforeend", markup);
       });
     });
-};
+}
 
 function Clear() {
-  let liElements = list.getElementsByTagName('li')
+  let liElements = list.getElementsByTagName("li");
   while (liElements.length > 0) {
     list.removeChild(liElements[0]);
-    console.log('obiekt usuniety');
+    console.log("obiekt usuniety");
   }
 }
 
 function Delete(url, elementId) {
   let index = GetIndex(elementId);
 
-  GetByIndex(url, elementId)
+  GetByIndex(url, elementId);
   fetch(`http://localhost:5000/api/${url}/${index}`, {
     method: "DELETE",
-  })
+  });
 }
 
 function Update(url, elementId) {
@@ -224,15 +224,15 @@ function Update(url, elementId) {
       console.log(data);
       const markup = `
                       Name:
-                      <br> <input type='text' placeholder='put new name'>
+                      <br> <input type='text' name='_fullname' placeholder='put new name'>
                       <br> Expiriation date:
-                      <br> <input type='date'>
+                      <br> <input type='date' name='_expiriationDate'>
                       <br> Amount:
-                      <br> <input type='text' placeholder='put new amount'>
+                      <br> <input type='text' name='_amount' placeholder='put new amount'>
                       <br> Storage place:
-                      <br> <input type='text' placeholder='put new storage place'>
+                      <br> <input type='text' name='_storagePlace' placeholder='put new storage place'>
                       <br> Destiny:
-                      <br> <input type='text' placeholder='put new destiny'>
+                      <br> <input type='text' name='_destiny' placeholder='put new destiny'>
                       <br> <button type='submit' id='submitUpdate'>Submit</button>
                       `;
 
@@ -243,31 +243,27 @@ function Update(url, elementId) {
 
       formEl.addEventListener("submit", (event) => {
         event.preventDefault();
-        console.log('jestem tu');
 
         const formData = new FormData(formEl);
 
-        const dataFromForm = Object.fromEntries(formData);
-        console.log(dataFromForm);
-        dataFromForm._index = data._index
-        dataFromForm._supplier = data._supplier
-        dataFromForm._acceptanceDate = data._acceptanceDate
-        dataFromForm._tubeLength = data._tubeLength
+        const updateData = Object.fromEntries(formData);
+        console.log(updateData);
 
-        console.log(url, index);
+        updateData._index = data._index;
+        updateData._supplier = data._supplier;
+        updateData._acceptanceDate = data._acceptanceDate;
+        updateData._tubeLength = data._tubeLength;
 
-        fetch(`http://localhost:5000/api/${url}/${index}`, {
+        fetch(`http://localhost:5000/api/Valves/${index}`, {
           method: "PUT",
           headers: {
             Accept: "application/json",
             "Content-Type": "application/json",
           },
-          body: JSON.stringify(data),
+          body: JSON.stringify(updateData),
         }).then(() => {
           location.reload();
         });
       });
     });
-
-
 }

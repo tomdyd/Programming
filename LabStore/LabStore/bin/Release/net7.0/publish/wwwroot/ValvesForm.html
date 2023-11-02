@@ -1,113 +1,206 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Crud operations</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Author: T.D,
+    Category: Store"
+    />
+  </head>
 
-<head>
-  <meta charset="utf-8" />
-  <title>Crud operations</title>
-  <link rel="stylesheet" href="styles/styles.css" />
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Author: T.D,
-    Category: Store">
-</head>
+  <body>
+    <h1 class="title">Valves</h1>
+    <fieldset>
+      <form class="valveForm">
+        <label for="_index">Index</label>
+        <input
+          id="_index"
+          type="text"
+          name="_index"
+          placeholder="Index"
+          required
+        />
 
-<body>
-  <h1 class="title">Valves</h1>
-  <fieldset>
-    <form class="valveForm">
-      <label for="_index">Index</label>
-      <input id="_index" type="text" name="_index" placeholder="Index" />
+        <label for="_fullname">Name</label>
+        <input id="_fullname" type="text" name="_fullname" placeholder="Name" />
 
-      <label for="_fullname">Name</label>
-      <input id="_fullname" type="text" name="_fullname" placeholder="Name" />
+        <label for="_supplier">Supplier</label>
+        <input
+          id="_supplier"
+          type="text"
+          name="_supplier"
+          placeholder="Supplier"
+          required
+        />
 
-      <label for="_supplier">Supplier</label>
-      <input id="_supplier" type="text" name="_supplier" placeholder="Supplier" />
+        <label for="_acceptanceDate">Acceptance date:</label>
+        <input
+          id="_acceptanceDate"
+          type="date"
+          name="_acceptanceDate"
+          placeholder="Acceptance date"
+          required
+        />
 
-      <label for="_acceptanceDate">Acceptance date:</label>
-      <input id="_acceptanceDate" type="date" name="_acceptanceDate" placeholder="Acceptance date" />
+        <label for="_expiriationDate">Expiriation date:</label>
+        <input
+          id="_expiriationDate"
+          type="date"
+          name="_expiriationDate"
+          placeholder="Expiriation date"
+          required
+        />
 
-      <label for="_expiriationDate">Expiriation date:</label>
-      <input id="_expiriationDate" type="date" name="_expiriationDate" placeholder="Expiriation date" />
+        <label for="_amount">Amount</label>
+        <input id="_amount" type="number" name="_amount" placeholder="Amount" />
 
-      <label for="_amount">Amount</label>
-      <input id="_amount" type="number" name="_amount" placeholder="Amount" />
+        <label for="_storagePlace">Storage place</label>
+        <input
+          id="_storagePlace"
+          type="text"
+          name="_storagePlace"
+          placeholder="Storage place"
+          required
+        />
 
-      <label for="_storagePlace">Storage place</label>
-      <input id="_storagePlace" type="text" name="_storagePlace" placeholder="Storage place" />
+        <label for="_tubeLength">Tube length</label>
+        <input
+          id="_tubeLength"
+          type="number"
+          name="_tubeLength"
+          placeholder="Tube length"
+          required
+        />
 
-      <label for="_tubeLength">Tube length</label>
-      <input id="_tubeLength" type="number" name="_tubeLength" placeholder="Tube length" />
+        <label for="_destiny">Destiny</label>
+        <input
+          id="_destiny"
+          type="text"
+          name="_destiny"
+          placeholder="Destiny"
+          required
+        />
 
-      <label for="_destiny">Destiny</label>
-      <input id="_destiny" type="text" name="_destiny" placeholder="Destiny" />
+        <button type="submit" id="submit">Submit</button>
+      </form>
+    </fieldset>
 
-      <button onclick="PostData()" type="submit" id="submit">Submit</button>
-    </form>
-  </fieldset>
+    <div class="buttons">
+      <a href="#valves"
+        ><button
+          onclick="GetAll('Valves')"
+          type="submit"
+          id="GetValves"
+          class="GetValves"
+        >
+          Get all valves
+        </button></a
+      >
 
-  <div class="buttons">
+      <div class="nameSearch">
+        <a href="#valves">
+          <button
+            onclick="GetByName('Valves')"
+            type="submit"
+            id="GetValveByName"
+            class="GetValveByName"
+          >
+            Get valve by name
+          </button></a
+        >
+        <input
+          type="text"
+          id="valveName"
+          class="valveName"
+          placeholder="put name"
+        />
+      </div>
 
-    <a href="#valves"><button onclick="GetAll('Valves')" type="submit" id="GetValves" class="GetValves">
-        Get all valves
-      </button></a>
+      <div class="indexSearch">
+        <a href="#valves">
+          <button
+            onclick="GetByIndex('Valves', 'valveIndex')"
+            type="submit"
+            id="GetValveByIndex"
+            class="GetValveByIndex"
+          >
+            Get valve by index
+          </button></a
+        >
+        <input
+          type="text"
+          id="valveIndex"
+          class="valveIndex"
+          placeholder="put index"
+        />
+      </div>
 
-    <div class="nameSearch">
-      <a href="#valves">
-        <button onclick="GetByName('Valves')" type="submit" id="GetValveByName" class="GetValveByName">
-          Get valve by name
-        </button></a>
-      <input type="text" id="valveName" class="valveName" placeholder="put name" />
+      <div class="destinySearch">
+        <a href="#valves">
+          <button
+            onclick="GetByDestiny('Valves')"
+            type="submit"
+            id="GetValveByDestiny"
+            class="GetValveByDestiny"
+          >
+            Get valve by destiny
+          </button></a
+        >
+        <input
+          type="text"
+          id="valveDestiny"
+          class="valveDestiny"
+          placeholder="put destiny"
+        />
+      </div>
+
+      <div>
+        <button onclick="Clear()" type="submit" id="clear" class="clear">
+          Clear
+        </button>
+      </div>
+
+      <div>
+        <button
+          onclick="Delete('Valves', 'delete')"
+          type="submit"
+          id="btnDelete"
+          class="btnDelete"
+        >
+          Delete
+        </button>
+        <input type="text" id="delete" class="delete" placeholder="put index" />
+      </div>
+
+      <div>
+        <button
+          onclick="Update('Valves', 'update')"
+          type="submit"
+          id="btnDelete"
+          class="btnDelete"
+        >
+          Update
+        </button>
+        <input
+          type="text"
+          id="update"
+          class="update"
+          placeholder="put index"
+          required
+        />
+      </div>
     </div>
 
-    <div class="indexSearch">
-      <a href="#valves">
-        <button onclick="GetByIndex('Valves', 'valveIndex')" type="submit" id="GetValveByIndex" class="GetValveByIndex">
-          Get valve by index
-        </button></a>
-      <input type="text" id="valveIndex" class="valveIndex" placeholder="put index" />
-    </div>
+    <h2 id="valves">Valves:</h2>
+    <ul id="valvesList" class="valvesList"></ul>
+    <fieldset>
+      <form id="valveForm1" , class="valveForm1"></form>
+    </fieldset>
 
-    <div class="destinySearch">
-      <a href="#valves">
-        <button onclick="GetByDestiny('Valves')" type="submit" id="GetValveByDestiny" class="GetValveByDestiny">
-          Get valve by destiny
-        </button></a>
-      <input type="text" id="valveDestiny" class="valveDestiny" placeholder="put destiny" />
-    </div>
-
-    <div>
-      <button onclick="Clear()" type="submit" id="clear" class="clear">
-        Clear
-      </button>
-    </div>
-
-    <div>
-      <button onclick="Delete('Valves', 'delete')" type="submit" id="btnDelete" class="btnDelete">
-        Delete
-      </button>
-      <input type="text" id="delete" class="delete" placeholder="put index" />
-    </div>
-
-    <div>
-      <button onclick="Update('Valves', 'update')" type="submit" id="btnDelete" class="btnDelete">
-        Update
-      </button>
-      <input type="text" id="update" class="update" placeholder="put index" />
-    </div>
-
-  </div>
-
-  <h2 id="valves">Valves:</h2>
-  <ul id="valvesList" class="valvesList">
-
-  </ul>
-  <fieldset>
-    <form id="valveForm1" , class="valveForm1">
-
-    </form>
-  </fieldset>
-
-  <script src="js/site.js"></script>
-</body>
-
+    <script src="js/site.js"></script>
+  </body>
 </html>
