@@ -1,0 +1,37 @@
+/******************************************
+*  Author : Author   
+*  Created On : Mon Nov 06 2023
+*  File : styles.css
+*******************************************/
+div{
+    margin: auto;
+    width: auto;
+    height: auto;
+}
+
+.circleLime{
+    display: flex;
+    background-color: lime;
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
+    margin: auto;    
+}
+
+.circleBlue{
+    display: flex;
+    background-color: blue;
+    border-radius: 50%;
+    height: 60%;
+    width: 60%;
+    margin: auto;
+}
+
+.circleGold{
+    background-color: gold;
+    border-radius: 50%;
+    height: 40%;
+    width: 40%;
+    margin: auto;
+    pointer-events: none;
+}
