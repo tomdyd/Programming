@@ -4,43 +4,41 @@
  *  File : site.js
  *******************************************/
 
-let todoInput; // Miejsce gdzie użytkownik wpisuje treść zadania
-let errorInfo; // info o braku zadań / konieczności wpisania tekstu
-let addBtn; // przycisk ADD - dodaje nowe elementy do listy
-let ulList; // lista zadań, tagi UL
-// let newTodo; // jesli chcemy korzystac jako ze zmiennej globalnej, tj nie przekazywac tego w parametr funkcji
+let todoInput;
+let addBtn;
+let ulList;
+let errorInfo;
+let newTodo;
 
 let popup;
-let todoToEdit;
 let popupInfo;
 let popupInput;
 let popupAddBtn;
-let popupCloseBtn;
-
-let todoToRemove;
+let popupCancelBtn;
+let todoEdit;
 
 const main = () => {
-  prepareDOMElements();
-  prepareDOMEvents();
+  prepareDOCElements();
+  prepareDOCEvents();
 };
 
-const prepareDOMElements = () => {
+const prepareDOCElements = () => {
   todoInput = document.querySelector(".todo-input");
-  errorInfo = document.querySelector(".error-info");
   addBtn = document.querySelector(".btn-add");
-  ulList = document.querySelector(".todolist ul");
+  ulList = document.querySelector("ul");
+  errorInfo = document.querySelector(".error-info");
 
   popup = document.querySelector(".popup");
   popupInfo = document.querySelector(".popup-info");
   popupInput = document.querySelector(".popup-input");
   popupAddBtn = document.querySelector(".accept");
-  popupCloseBtn = document.querySelector(".cancel");
+  popupCancelBtn = document.querySelector(".cancel");
 };
 
-const prepareDOMEvents = () => {
+const prepareDOCEvents = () => {
   addBtn.addEventListener("click", addNewTodo);
   ulList.addEventListener("click", checkClick);
-  popupCloseBtn.addEventListener("click", closePopup);
+  popupCancelBtn.addEventListener("click", closePopup);
   popupAddBtn.addEventListener("click", changeTodoText);
   todoInput.addEventListener("keyup", enterKeyCheck);
 };
@@ -49,18 +47,19 @@ const addNewTodo = () => {
   if (todoInput.value !== "") {
     newTodo = document.createElement("li");
     newTodo.textContent = todoInput.value;
-    createToolsArea(newTodo);
-    ulList.append(newTodo);
+    createToolArea();
+    ulList.appendChild(newTodo);
 
     todoInput.value = "";
     errorInfo.textContent = "";
-  } else errorInfo.textContent = "Wpisz treść zadania!";
+  } else {
+    errorInfo.textContent = "Wpisz treść zadania!";
+  }
 };
 
-const createToolsArea = (newTodo) => {
-  const toolsPanel = document.createElement("div");
-  toolsPanel.classList.add("tools");
-  newTodo.append(toolsPanel);
+const createToolArea = () => {
+  const toolArea = document.createElement("div");
+  toolArea.classList.add("tools");
 
   const completeBtn = document.createElement("button");
   completeBtn.classList.add("complete");
@@ -74,26 +73,29 @@ const createToolsArea = (newTodo) => {
   deleteBtn.classList.add("delete");
   deleteBtn.innerHTML = "<i class='fas fa-times'></i>";
 
-  toolsPanel.append(completeBtn, editBtn, deleteBtn);
+  toolArea.append(completeBtn, editBtn, deleteBtn);
+  newTodo.appendChild(toolArea);
 };
 
 const checkClick = (e) => {
   if (e.target.matches(".complete")) {
-    e.target.closest("li").classList.toggle("completed");
-    e.target.classList.toggle("completed");
+    completeTodo(e);
   } else if (e.target.matches(".edit")) {
-    editTodo(e);
+    editToDo(e);
   } else if (e.target.matches(".delete")) {
-    removeTodo(e);
+    deleteTodo(e);
   }
 };
 
-const editTodo = (e) => {
-  todoToEdit = e.target.closest("li");
-  console.log(todoToEdit.firstChild);
+const completeTodo = (e) => {
+  e.target.closest("li").classList.toggle("completed");
+  e.target.classList.toggle("completed");
+};
 
-  popupInput.value = todoToEdit.firstChild.textContent;
+const editToDo = (e) => {
   popup.style.display = "flex";
+  todoEdit = e.target.closest("li");
+  popupInput.value = todoEdit.firstChild.textContent;
 };
 
 const closePopup = () => {
@@ -103,16 +105,17 @@ const closePopup = () => {
 
 const changeTodoText = () => {
   if (popupInput.value !== "") {
-    popupInfo.textContent = "";
-    todoToEdit.firstChild.textContent = popupInput.value;
-    popup.style.display = "none";
-  } else popupInfo.textContent = "Musisz podać jakąś tresć!";
+    todoEdit.firstChild.textContent = popupInput.value;
+    closePopup();
+  } else {
+    popupInfo.textContent = "Musisz podać jakąś tresć!";
+  }
 };
 
-const removeTodo = (e) => {
+const deleteTodo = (e) => {
   e.target.closest("li").remove();
 
-  const allTodos = ulList.querySelectorAll("li");
+  const allTodos = document.querySelectorAll("li");
 
   if (allTodos.length === 0) {
     errorInfo.textContent = "Brak zadań na liście";

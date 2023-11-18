@@ -1,0 +1,49 @@
+<!-- ******************************************
+*  Author : T. Dyda  
+*  Created On : Sat Nov 18 2023
+*  File : indexc.html
+******************************************* -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Author" />
+    <title>Title</title>
+    <script
+      src="https://kit.fontawesome.com/0106747315.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <fieldset>
+        <form class="form">
+        <label for="name"></label>
+        <input class="input1" type="text" placeholder="Podaj imię" />
+        <label for="lastname"></label>
+        <input class="input2" type="text" placeholder="Podaj nazwisko" />
+        <label for="age"></label>
+        <input class="input3" type="number" placeholder="Podaj wiek" />
+        <div class="buttons">
+          <button class="addBtn">Dodaj</button>
+          <button class="cancelBtn">Anuluj</button>
+        </div>
+        <p class="error"></p>
+      </fieldset>
+    </form>
+    </div>
+
+    <ul class="info">
+      <li class="hidden important">
+        <p class="mark">Imię</p>
+        <p class="mark">Nazwisko</p>
+        <p class="mark">Wiek</p>
+      </li>
+    </ul>
+
+    <script src="site.js"></script>
+  </body>
+</html>
