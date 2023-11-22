@@ -7,18 +7,21 @@
   font-size: 87.5%;
 }
 
+html,
 body {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+body {
   margin: 0;
   background-color: #fff;
 }
 
-.body{
+.body {
   display: flex;
   flex-direction: column;
-  justify-content: center;  
+  justify-content: center;
   margin: 0;
   background-color: grey;
   align-items: center;
@@ -29,11 +32,12 @@ body {
   justify-content: flex-start;
   gap: 2vw;
   align-items: center;
-  background: linear-gradient(45deg, #c3d8df 0 24.55%, #10657e 0 100%);
+  background-color: #10657e;
   width: 100%;
+  height: 40%;
 }
 
-.head1{
+.head1 {
   display: flex;
   justify-content: flex-start;
   gap: 2vw;
@@ -42,18 +46,24 @@ body {
   width: 100%;
 }
 
-img {
-  width: 23.3%;
-  height: 23.3%;
-  margin: 5%;
+.picture {
+  width: 33%;
+  background: linear-gradient(to bottom left, #10657e 50%, #c3d8df 50%);
 }
 
-.section{
+img {
+  width: 60%;
+  margin: 0 20% 0 20%;
+  padding: 10% 0 10% 0;
+}
+
+.section {
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 
-.section-width{
+.section-width {
   width: 60%;
 }
 
@@ -76,9 +86,6 @@ img {
 }
 
 .info {
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
   width: 56.5%;
   padding-bottom: 10px;
   border-bottom: 7px solid #fff;
@@ -122,8 +129,8 @@ li {
 }
 
 i {
-  width: 1.1vw;
-  height: 1.1vw;
+  width: 1.5vw;
+  height: 1.5vw;
   margin: 0 10px 0 0;
   background-color: #343b40;
   color: #c3d8df;
@@ -146,17 +153,18 @@ i {
   margin: 0 5% 0 5%;
 }
 
-.studies ul{
+.studies ul {
   list-style: none;
   margin: 0;
 }
 
-.studies li, .studies h3{
+.studies li,
+.studies h3 {
   padding: 0 0 0 40px;
 }
 
-.studies h3{
-  margin:16.38px 0 0  0;
+.studies h3 {
+  margin: 16.38px 0 0 0;
 }
 
 .experience_header,
