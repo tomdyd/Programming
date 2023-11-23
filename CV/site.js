@@ -7,9 +7,8 @@ let breakpoint;
 let body;
 let section;
 let head;
-let download;
-let element;
 let downloadBtn;
+let element;
 
 const main = () => {
   prepareDOMElemens();
@@ -19,33 +18,36 @@ const main = () => {
 const prepareDOMElemens = () => {
   breakpoint = document.querySelector(".info_header");
   body = document.querySelector("body");
-  section = document.querySelector("section");
+  section = document.querySelector(".section");
   head = document.querySelector(".head");
-  download = document.querySelector(".download");
+  downloadBtn = document.querySelector(".downloadBtn");
   element = section;
 };
 
 const prepareDOMEvents = () => {
-  breakpoint.addEventListener("click", changeStyle);
-  download.addEventListener("click", saveAsPDF);
+  downloadBtn.addEventListener("click", saveAsPDF);
 };
 
 const changeStyle = () => {
-  body.classList.toggle("body");
+  // body.classList.toggle("body");
+  // section.classList.toggle("section-width");
+  // head.classList.toggle("head1");
+  console.log("jestem wywołana");
   section.classList.toggle("section-width");
-  head.classList.toggle("head1");
 };
 
-const saveAsPDF = () => {
+async function saveAsPDF() {
+  changeStyle();
   let opt = {
     margin: 0,
     filename: "myfile.pdf",
-    image: { type: "jpeg", quality: 0.98 },
+    image: { type: "jpeg", quality: 1 },
     html2canvas: { scale: 5 },
     jsPDF: { unit: "in", format: "letter", orientation: "portrait" },
   };
 
-  html2pdf().set(opt).from(section).save();
-};
+  await html2pdf().set(opt).from(section).save();
+  changeStyle();
+}
 
 document.addEventListener("DOMContentLoaded", main);
