@@ -1,53 +1,62 @@
 /******************************************
  *  Author : Author
- *  Created On : Mon Nov 20 2023
+ *  Created On : Sun Nov 26 2023
  *  File : site.js
  *******************************************/
-let breakpoint;
-let body;
-let section;
-let head;
 let downloadBtn;
-let element;
+let content;
 
 const main = () => {
-  prepareDOMElemens();
+  prepareDOMElements();
   prepareDOMEvents();
 };
 
-const prepareDOMElemens = () => {
-  breakpoint = document.querySelector(".info_header");
-  body = document.querySelector("body");
-  section = document.querySelector(".section");
-  head = document.querySelector(".head");
+const prepareDOMElements = () => {
   downloadBtn = document.querySelector(".downloadBtn");
-  element = section;
+  content = document.querySelector(".content");
 };
 
 const prepareDOMEvents = () => {
   downloadBtn.addEventListener("click", saveAsPDF);
 };
 
-const changeStyle = () => {
-  // body.classList.toggle("body");
-  // section.classList.toggle("section-width");
-  // head.classList.toggle("head1");
-  console.log("jestem wywołana");
-  section.classList.toggle("section-width");
-};
-
-async function saveAsPDF() {
-  changeStyle();
+const saveAsPDF = () => {
   let opt = {
     margin: 0,
-    filename: "myfile.pdf",
+    filename: "CV_Dyda_Tomasz.pdf",
     image: { type: "jpeg", quality: 1 },
     html2canvas: { scale: 5 },
-    jsPDF: { unit: "in", format: "letter", orientation: "portrait" },
+    jsPDF: { unit: "mm", format: "a4", orientation: "portrait" },
   };
 
-  await html2pdf().set(opt).from(section).save();
-  changeStyle();
-}
+  html2pdf().set(opt).from(content).save();
+};
+
+// const addFontFamily = () => {
+//     let fontFamilyPreconnectAPI = document.createElement("link");
+//     fontFamilyPreconnectAPI.setAttribute("rel", "preconnect");
+//     fontFamilyPreconnectAPI.setAttribute("href", "https://fonts.googleapis.com");
+
+//     let fontFamilyPreconnectGstatic = document.createElement("link");
+//     fontFamilyPreconnectGstatic.setAttribute("rel", "preconnect");
+//     fontFamilyPreconnectGstatic.setAttribute("href", "https://fonts.gstatic.com");
+
+//     let fontFamily = document.createElement("link");
+//     fontFamily.setAttribute("rel", "stylesheet");
+//     fontFamily.setAttribute(
+//       "href",
+//       "https://fonts.googleapis.com/css2?family=Montserrat:wght@300;800&display=swap"
+//     );
+
+//     console.log(fontFamilyPreconnectAPI);
+//     console.log(fontFamilyPreconnectGstatic);
+//     console.log(fontFamily);
+
+//     HTMLhead.append(
+//       fontFamilyPreconnectAPI,
+//       fontFamilyPreconnectGstatic,
+//       fontFamily
+//     );
+//   };
 
 document.addEventListener("DOMContentLoaded", main);
