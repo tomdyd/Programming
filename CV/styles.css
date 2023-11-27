@@ -3,11 +3,8 @@
 *  Created On : Sun Nov 26 2023
 *  File : styles.css
 *******************************************/
-@page {
-  size: A4;
-}
 :root {
-  font-size: 87.5%;
+  font-size: 84.5%;
   font-family: "Montserrat";
 }
 
@@ -17,13 +14,12 @@ html {
 }
 
 body {
-  height: 297mm;
-  width: 210mm;
-  margin: 0;
   background-color: rgba(128, 128, 128);
+  margin: 0;
 }
 
 .content {
+  width: 210mm;
   height: 296.8mm;
 }
 
@@ -79,20 +75,25 @@ img {
 .information {
   background-color: #c3d8df;
   width: 33%;
-  height: 100%;
+  padding: 4% 0 0 0;
+}
+
+.information h2 {
+  border-top: solid black 3px;
+  padding-top: 5%;
+  margin: 0 10% 3% 10%;
 }
 
 .experience {
   background-color: #fff;
   width: 67%;
-  height: 100%;
 }
 
 .contact-list {
   list-style: none;
   padding: 0;
-  margin: 0 7% 10% 7%;
-  font-size: 87.5%;
+  margin: 0 10% 10% 10%;
+  font-size: 83%;
 }
 
 .fa-solid {
@@ -104,24 +105,24 @@ img {
   color: #c3d8df;
 }
 
-.information {
-  padding: 5% 0 0 0;
+.skills-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 10% 0 10%;
 }
 
-.information h2 {
-  border-top: solid black 3px;
-  padding-top: 5%;
-  margin: 0 7% 3% 7%;
+.skills-list li {
+  padding: 6% 0 0 0;
 }
 
 .experience {
-  padding: 5% 0 0 0;
+  padding: 4% 0 0 0;
 }
 
 .experience h2 {
   border-top: solid black 3px;
   padding-top: 2.5%;
-  margin: 0 7% 3% 7%;
+  margin: 0 7% 2% 7%;
 }
 
 .experience h3 {
@@ -129,12 +130,16 @@ img {
 }
 
 .experience ul {
-  margin: 0 7% 3% 7%;
+  margin: 0 7% 2% 7%;
+}
+
+.experience ul li {
+  margin: 1% 0 1% 0;
 }
 
 .experience p {
   font-weight: bold;
-  margin: 3% 7% 3% 7%;
+  margin: 2% 7% 2% 7%;
 }
 
 .downloadBtn {
