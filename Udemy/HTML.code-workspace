@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "projektowanieStronWWWI/1. POZNAJEMY_HTML"
+		},
+		{
+			"path": "projektowanieStronWWWI/2. tabele"
+		},
+		{
+			"path": "projektowanieStronWWWI/3. PicturesMusicVideo"
+		},
+		{
+			"path": "projektowanieStronWWWI/4. Strona HTML"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "4. Strona HTML"
+	}
+}

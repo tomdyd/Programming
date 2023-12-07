@@ -1,0 +1,48 @@
+/******************************************
+*  Author : Author   
+*  Created On : Wed Dec 06 2023
+*  File : style.css
+*******************************************/
+
+/* Nie powinniśmy używać em do zmieniania rozmiaru fonta, gdyż prowadzi to do pewnych nieścisłości do tego służy rem!!!!!!!!  */
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-family: 'Montserrat', 'sans-serif';
+	color: #fff;
+	background-color: #333;
+}
+
+.top,
+.bottom {
+	margin-top: 30px;
+	padding: 20px 50px;
+}
+
+.top {
+	font-size: 40px;
+	background-color: #000;
+}
+
+.one {
+	font-size: 1em; /*rozmiar 100% rodzica, czyli .top (80px)*/
+}
+
+.two {
+	font-size: 2em; /*rozmiar 200% rodzica, czyli .top (80px)*/
+}
+
+.bottom {
+	font-size: 30px;
+}
+
+.first {
+	font-size: 2em; /*rozmiar 200% rodzica, czyli .bottom (60px)*/
+}
+
+.second {
+	font-size: 2em; /*rozmiar 200% rodzica, czyli .first (120px)*/
+}
