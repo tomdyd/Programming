@@ -1,0 +1,57 @@
+/******************************************
+*  Author : Author   
+*  Created On : Tue Dec 05 2023
+*  File : style.css
+*******************************************/
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-size: 24px;
+}
+
+.burger {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px 30px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: #000;
+  font-size: 36px;
+}
+
+nav ul {
+  position: absolute;
+  padding-top: 50px;
+  width: 350px;
+  left: -350px;
+  list-style: none;
+  transition: 0.3s;
+  background-color: #000;
+  height: 100vh;
+}
+
+.active {
+  transform: translateX(350px);
+  transition: 0.3s;
+}
+
+.hide {
+  display: none;
+}
+
+nav a {
+  display: block;
+  padding: 10px 30px;
+  text-decoration: none;
+  color: #fff;
+}
+
+nav a:hover {
+  font-weight: bold;
+}

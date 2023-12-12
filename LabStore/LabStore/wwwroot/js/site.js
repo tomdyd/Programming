@@ -3,7 +3,22 @@
  *  Created On : Sun Oct 29 2023
  *  File : site.js
  *******************************************/
-//#region Post data
+
+let inputs = document.querySelectorAll("input");
+
+const focusInput = (e) => {
+  e.target.style.backgroundColor = "rgb(72, 89, 138)";
+};
+
+const blurInput = (e) => {
+  e.target.style.backgroundColor = "transparent";
+};
+
+for (let i = 0; i < inputs.length; i++) {
+  inputs[i].addEventListener("focus", focusInput);
+  inputs[i].addEventListener("blur", blurInput);
+}
+
 const formEl = document.querySelector(".valveForm");
 
 formEl.addEventListener("submit", (event) => {
@@ -21,11 +36,8 @@ formEl.addEventListener("submit", (event) => {
       "Content-Type": "application/json",
     },
     body: JSON.stringify(data),
-  }); /*.then(() => {
-    location.reload();
-  });*/
+  });
 });
-//#endregion
 
 function GetId() {
   let id = document.getElementById("valveId").value;

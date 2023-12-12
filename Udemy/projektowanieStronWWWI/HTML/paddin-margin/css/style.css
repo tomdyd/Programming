@@ -1,0 +1,49 @@
+/* Zapisz zapisem skróconym */
+
+.p1 {
+  padding: 80px 40px 15px 5px;
+}
+
+.p2 {
+  padding: 10px;
+}
+
+.p3 {
+  margin: 20px 30px 40px 30px;
+}
+
+.p4 {
+  margin: 100px 50px 100px 50px;
+}
+
+/* Zapisz zapisaem zwykłym */
+
+.p1 {
+  padding: 20px 30px 40px 50px;
+  padding-top: 20px;
+  padding-right: 30px;
+  padding-bottom: 40px;
+  padding-left: 50px;
+}
+
+.p2 {
+  padding: 20px 30px 50px;
+  padding-top: 20px;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-bottom: 50px;
+}
+
+.p3 {
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+
+.p4 {
+  padding-top: 20px;
+  padding-right: 40px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+}

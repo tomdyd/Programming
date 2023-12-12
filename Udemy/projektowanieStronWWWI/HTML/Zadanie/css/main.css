@@ -1,0 +1,15 @@
+/******************************************
+*  Author : Author   
+*  Created On : Wed Dec 06 2023
+*  File : style.css
+*******************************************/
+
+body {
+  background-color: royalblue;
+}
+
+p {
+  text-align: center;
+  font-size: 50px;
+  color: gold;
+}

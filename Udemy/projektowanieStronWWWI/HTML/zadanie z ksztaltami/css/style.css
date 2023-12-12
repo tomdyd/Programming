@@ -1,0 +1,38 @@
+/******************************************
+*  Author : Author   
+*  Created On : Thu Dec 07 2023
+*  File : style.css
+*******************************************/
+
+.box-1 {
+  width: 400px;
+  height: 400px;
+  background-color: gold;
+}
+
+.circle {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-color: rgba(255, 0, 0, 0.3);
+}
+
+.box-2 {
+  max-width: 800px;
+  min-width: 500px;
+  width: 100%;
+  height: 200px;
+  background-color: lime;
+}
+
+.box-3 {
+  width: 50vw;
+  height: 300px;
+  background-color: tomato;
+}
+
+.inside {
+  width: 50%;
+  height: 50vw;
+  background-color: #646cfd;
+}

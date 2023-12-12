@@ -1,0 +1,24 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #333;
+  color: #fff;
+  font-size: 36px;
+  margin: 50px;
+}
+
+/* > ; + ; ~ */
+
+/* Zaznacza wszystkie dzieci w divie, zapis div p zaznacza wszystkie p w divie, nawet te glębiej zagniezdzone */
+div > p {
+  color: lime;
+}
+
+/* Zaznacza PIERWSZEGO, bezpośredniego brata div, który jest niżej w kodzie. */
+div + p {
+  color: tomato;
+}
+
+/* Zaznacza KAŻDEGO brata div, który jest niżj w kodzie. */
+div ~ p {
+  color: gold;
+}
