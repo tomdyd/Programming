@@ -62,3 +62,12 @@ D:\Dane\gitRepositories\Projects\DataBase\DataBase\obj\Debug\net6.0\refint\DataB
 D:\Dane\gitRepositories\Projects\DataBase\DataBase\obj\Debug\net6.0\DataBase.pdb
 D:\Dane\gitRepositories\Projects\DataBase\DataBase\obj\Debug\net6.0\DataBase.genruntimeconfig.cache
 D:\Dane\gitRepositories\Projects\DataBase\DataBase\obj\Debug\net6.0\ref\DataBase.dll
+C:\Users\t.dyda\Documents\Programming\DataBase\DataBase\obj\Debug\net6.0\DataBase.csproj.AssemblyReference.cache
+C:\Users\t.dyda\Documents\Programming\DataBase\DataBase\obj\Debug\net6.0\DataBase.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\t.dyda\Documents\Programming\DataBase\DataBase\obj\Debug\net6.0\DataBase.AssemblyInfoInputs.cache
+C:\Users\t.dyda\Documents\Programming\DataBase\DataBase\obj\Debug\net6.0\DataBase.AssemblyInfo.cs
+C:\Users\t.dyda\Documents\Programming\DataBase\DataBase\obj\Debug\net6.0\DataBase.csproj.CoreCompileInputs.cache
+C:\Users\t.dyda\Documents\Programming\DataBase\DataBase\obj\Debug\net6.0\DataBase.sourcelink.json
+C:\Users\t.dyda\Documents\Programming\DataBase\DataBase\obj\Debug\net6.0\DataBase.dll
+C:\Users\t.dyda\Documents\Programming\DataBase\DataBase\obj\Debug\net6.0\refint\DataBase.dll
+C:\Users\t.dyda\Documents\Programming\DataBase\DataBase\obj\Debug\net6.0\DataBase.pdb

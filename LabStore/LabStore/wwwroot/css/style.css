@@ -66,3 +66,19 @@ label {
 button:hover {
   background-color: rgb(72, 89, 138);
 }
+
+.getValves {
+  position: relative;
+  width: 200px;
+  height: 50px;
+  justify-content: center;
+}
+
+.valvesList div {
+  display: flex;
+  flex-direction: row;
+}
+
+.editBtn {
+  font-size: 50px;
+}

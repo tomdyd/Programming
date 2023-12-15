@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Dane\\praceDomowe\\DataBase\\DataBase\\DataBase.csproj": {}
+    "C:\\Users\\t.dyda\\Documents\\Programming\\DataBase\\DataBase\\DataBase.csproj": {}
   },
   "projects": {
-    "D:\\Dane\\praceDomowe\\DataBase\\DataBase\\DataBase.csproj": {
+    "C:\\Users\\t.dyda\\Documents\\Programming\\DataBase\\DataBase\\DataBase.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Dane\\praceDomowe\\DataBase\\DataBase\\DataBase.csproj",
+        "projectUniqueName": "C:\\Users\\t.dyda\\Documents\\Programming\\DataBase\\DataBase\\DataBase.csproj",
         "projectName": "DataBase",
-        "projectPath": "D:\\Dane\\praceDomowe\\DataBase\\DataBase\\DataBase.csproj",
-        "packagesPath": "C:\\Users\\Tomek\\.nuget\\packages\\",
-        "outputPath": "D:\\Dane\\praceDomowe\\DataBase\\DataBase\\obj\\",
+        "projectPath": "C:\\Users\\t.dyda\\Documents\\Programming\\DataBase\\DataBase\\DataBase.csproj",
+        "packagesPath": "C:\\Users\\t.dyda\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\t.dyda\\Documents\\Programming\\DataBase\\DataBase\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Tomek\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\t.dyda\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Dane\\praceDomowe\\DataBase\\StoreDataAccess\\StoreDataAccess.csproj": {
-                "projectPath": "D:\\Dane\\praceDomowe\\DataBase\\StoreDataAccess\\StoreDataAccess.csproj"
+              "C:\\Users\\t.dyda\\Documents\\Programming\\DataBase\\StoreDataAccess\\StoreDataAccess.csproj": {
+                "projectPath": "C:\\Users\\t.dyda\\Documents\\Programming\\DataBase\\StoreDataAccess\\StoreDataAccess.csproj"
               }
             }
           }
@@ -54,26 +54,44 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[6.0.25, 6.0.25]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Dane\\praceDomowe\\DataBase\\StoreDataAccess\\StoreDataAccess.csproj": {
+    "C:\\Users\\t.dyda\\Documents\\Programming\\DataBase\\StoreDataAccess\\StoreDataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Dane\\praceDomowe\\DataBase\\StoreDataAccess\\StoreDataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\t.dyda\\Documents\\Programming\\DataBase\\StoreDataAccess\\StoreDataAccess.csproj",
         "projectName": "StoreDataAccess",
-        "projectPath": "D:\\Dane\\praceDomowe\\DataBase\\StoreDataAccess\\StoreDataAccess.csproj",
-        "packagesPath": "C:\\Users\\Tomek\\.nuget\\packages\\",
-        "outputPath": "D:\\Dane\\praceDomowe\\DataBase\\StoreDataAccess\\obj\\",
+        "projectPath": "C:\\Users\\t.dyda\\Documents\\Programming\\DataBase\\StoreDataAccess\\StoreDataAccess.csproj",
+        "packagesPath": "C:\\Users\\t.dyda\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\t.dyda\\Documents\\Programming\\DataBase\\StoreDataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Tomek\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\t.dyda\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -119,12 +137,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

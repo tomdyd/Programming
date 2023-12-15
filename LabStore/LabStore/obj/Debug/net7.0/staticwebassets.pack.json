@@ -1,28 +1,28 @@
 {
   "Files": [
     {
-      "Id": "D:\\Dane\\Programming\\LabStore\\LabStore\\wwwroot\\CanForm.html",
+      "Id": "C:\\Users\\t.dyda\\Documents\\Programming\\LabStore\\LabStore\\wwwroot\\CanForm.html",
       "PackagePath": "staticwebassets\\CanForm.html"
     },
     {
-      "Id": "D:\\Dane\\Programming\\LabStore\\LabStore\\wwwroot\\RawMaterialsForm.html",
+      "Id": "C:\\Users\\t.dyda\\Documents\\Programming\\LabStore\\LabStore\\wwwroot\\RawMaterialsForm.html",
       "PackagePath": "staticwebassets\\RawMaterialsForm.html"
     },
     {
-      "Id": "D:\\Dane\\Programming\\LabStore\\LabStore\\wwwroot\\ValvesForm.html",
+      "Id": "C:\\Users\\t.dyda\\Documents\\Programming\\LabStore\\LabStore\\wwwroot\\ValvesForm.html",
       "PackagePath": "staticwebassets\\ValvesForm.html"
     },
     {
-      "Id": "D:\\Dane\\Programming\\LabStore\\LabStore\\wwwroot\\index.html",
+      "Id": "C:\\Users\\t.dyda\\Documents\\Programming\\LabStore\\LabStore\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\t.dyda\\Documents\\Programming\\LabStore\\LabStore\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },
     {
-      "Id": "D:\\Dane\\Programming\\LabStore\\LabStore\\wwwroot\\js\\site.js",
+      "Id": "C:\\Users\\t.dyda\\Documents\\Programming\\LabStore\\LabStore\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
-    },
-    {
-      "Id": "D:\\Dane\\Programming\\LabStore\\LabStore\\wwwroot\\styles\\styles.css",
-      "PackagePath": "staticwebassets\\styles\\styles.css"
     },
     {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.LabStore.Microsoft.AspNetCore.StaticWebAssets.props",

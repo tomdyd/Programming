@@ -22,3 +22,12 @@ D:\Dane\gitRepositories\Projects\DataBase\StoreDataAccess\obj\Debug\net6.0\Store
 D:\Dane\gitRepositories\Projects\DataBase\StoreDataAccess\obj\Debug\net6.0\refint\StoreDataAccess.dll
 D:\Dane\gitRepositories\Projects\DataBase\StoreDataAccess\obj\Debug\net6.0\StoreDataAccess.pdb
 D:\Dane\gitRepositories\Projects\DataBase\StoreDataAccess\obj\Debug\net6.0\ref\StoreDataAccess.dll
+C:\Users\t.dyda\Documents\Programming\DataBase\StoreDataAccess\obj\Debug\net6.0\StoreDataAccess.csproj.AssemblyReference.cache
+C:\Users\t.dyda\Documents\Programming\DataBase\StoreDataAccess\obj\Debug\net6.0\StoreDataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\t.dyda\Documents\Programming\DataBase\StoreDataAccess\obj\Debug\net6.0\StoreDataAccess.AssemblyInfoInputs.cache
+C:\Users\t.dyda\Documents\Programming\DataBase\StoreDataAccess\obj\Debug\net6.0\StoreDataAccess.AssemblyInfo.cs
+C:\Users\t.dyda\Documents\Programming\DataBase\StoreDataAccess\obj\Debug\net6.0\StoreDataAccess.csproj.CoreCompileInputs.cache
+C:\Users\t.dyda\Documents\Programming\DataBase\StoreDataAccess\obj\Debug\net6.0\StoreDataAccess.sourcelink.json
+C:\Users\t.dyda\Documents\Programming\DataBase\StoreDataAccess\obj\Debug\net6.0\StoreDataAccess.dll
+C:\Users\t.dyda\Documents\Programming\DataBase\StoreDataAccess\obj\Debug\net6.0\refint\StoreDataAccess.dll
+C:\Users\t.dyda\Documents\Programming\DataBase\StoreDataAccess\obj\Debug\net6.0\StoreDataAccess.pdb

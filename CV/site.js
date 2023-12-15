@@ -14,6 +14,7 @@ const main = () => {
 const prepareDOMElements = () => {
   downloadBtn = document.querySelector(".downloadBtn");
   content = document.querySelector(".content");
+  console.log(content);
 };
 
 const prepareDOMEvents = () => {
