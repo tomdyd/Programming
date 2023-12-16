@@ -7,113 +7,135 @@
 let inputs;
 let getValves;
 let valvesList;
-const URL = "http://localhost:5000/api/Valves";
-const formEl = document.querySelector(".valveForm");
+const URL = 'http://localhost:5000/api/Valves';
+let formEl;
+let editBtn;
+let popup;
+let closePopup;
 
 const main = () => {
-  prepareDOMElements();
-  prepareDOMEvents();
+	prepareDOMElements();
+	prepareDOMEvents();
 };
 
 const prepareDOMElements = () => {
-  inputs = document.querySelectorAll("input");
-  getValves = document.querySelector(".getValves");
-  valvesList = document.querySelector(".valvesList");
+	inputs = document.querySelectorAll('input');
+	getValves = document.querySelector('.getValves');
+	valvesList = document.querySelector('.valvesList');
+	formEl = document.querySelector('.valveForm');
+	editBtn = document.querySelectorAll('.editBtn');
+	popup = document.querySelector('.popup');
+	closePopup = document.querySelector('.x-mark');
 };
 
 const prepareDOMEvents = () => {
-  for (let i = 0; i < inputs.length; i++) {
-    inputs[i].addEventListener("focus", focusInput);
-    inputs[i].addEventListener("blur", blurInput);
-  }
-  getValves.addEventListener("click", getValvesList, { once: true });
-  formEl.addEventListener("submit", addNewValve);
+	for (let i = 0; i < inputs.length; i++) {
+		inputs[i].addEventListener('focus', focusInput);
+		inputs[i].addEventListener('blur', blurInput);
+	}
+	getValves.addEventListener('click', getValvesList, { once: true });
+	formEl.addEventListener('submit', addNewValve);
+	valvesList.addEventListener('click', checkClick);
+	popup.addEventListener('click', checkClick);
 };
 
 const focusInput = (e) => {
-  e.target.style.backgroundColor = "rgb(72, 89, 138)";
+	e.target.style.backgroundColor = 'rgb(72, 89, 138)';
 };
 
 const blurInput = (e) => {
-  e.target.style.backgroundColor = "transparent";
+	e.target.style.backgroundColor = 'transparent';
 };
 
 const getValvesList = () => {
-  fetch(URL, {
-    method: "GET",
-  })
-    .then((res) => {
-      return res.json();
-    })
-    .then((data) => {
-      console.log(data);
-      data.forEach((element) => {
-        elementsArray = Object.values(element);
+	fetch(URL, {
+		method: 'GET',
+	})
+		.then((res) => {
+			return res.json();
+		})
+		.then((data) => {
+			data.forEach((element) => {
+				elementsArray = Object.values(element);
+				console.log(elementsArray);
 
-        // let liElement = document.createElement("li");
-        // createToolArea(liElement);
-
-        // let div = document.createElement("div");
-
-        // for (let i = 0; i < elementsArray.length; i++) {
-        //   let input = document.createElement("input");
-        //   input.value = elementsArray[i];
-
-        //   div.appendChild(input);
-        //   liElement.appendChild(div);
-        //   valvesList.appendChild(liElement);
-        // }
-      });
-    });
+				addToList(elementsArray);
+			});
+		});
 };
 
-const getValves1 = () => {
-  fetch(URL, {
-    method: "GET",
-  })
-    .then((res) => {
-      return res.json();
-    })
-    .then((data) => {
-      return data;
-    });
+const addToList = (elementsArray) => {
+	let liElement = document.createElement('li');
+	let inputs = document.createElement('div');
+
+	for (let i = 0; i < elementsArray.length; i++) {
+		let input = document.createElement('span');
+		input.textContent = elementsArray[i];
+
+		inputs.appendChild(input);
+		liElement.appendChild(inputs);
+		valvesList.appendChild(liElement);
+	}
+
+	createToolArea(liElement);
 };
 
-const add = (x, y) => {
-  let result = x + y;
-  return result;
-};
+const createToolArea = (newElement) => {
+	let editBtn = document.createElement('button');
+	let deleteBtn = document.createElement('button');
+	let toolsArea = document.createElement('div');
 
-let calc = add(5, 5);
-console.log(calc);
+	editBtn.classList.add('editBtn');
+	deleteBtn.classList.add('deleteBtn');
 
-const createToolArea = (newToDo) => {
-  let btnEdit = document.createElement("button");
+	editBtn.innerHTML = "<i class='fa-solid fa-pen-to-square'></i>";
+	deleteBtn.innerHTML = "<i class='fa-solid fa-trash'></i>";
 
-  btnEdit.innerHTML = "<i class='fa-solid fa-pen-to-square'></i>";
-  btnEdit.classList.add("editBtn");
-  newToDo.appendChild(btnEdit);
+	toolsArea.classList.add('tools');
+
+	toolsArea.append(editBtn, deleteBtn);
+	newElement.append(toolsArea);
 };
 
 const addNewValve = (e) => {
-  e.preventDefault();
+	e.preventDefault();
 
-  const formData = new FormData(formEl);
+	const formData = new FormData(formEl);
 
-  const data = Object.fromEntries(formData);
-  console.log(data);
+	const data = Object.fromEntries(formData);
+	console.log(data);
 
-  fetch("http://localhost:5000/api/Valves", {
-    method: "POST",
-    headers: {
-      Accept: "application/json",
-      "Content-Type": "application/json",
-    },
-    body: JSON.stringify(data),
-  });
+	fetch('http://localhost:5000/api/Valves', {
+		method: 'POST',
+		headers: {
+			Accept: 'application/json',
+			'Content-Type': 'application/json',
+		},
+		body: JSON.stringify(data),
+	});
 };
 
-document.addEventListener("DOMContentLoaded", main);
+const checkClick = (e) => {
+	if (e.target.matches('.editBtn')) {
+		edit(e);
+	} else if (e.target.matches('.closePopup')) {
+		close(e);
+	}
+};
+
+const edit = (e) => {
+	// test = e.target.closest('li');
+	popup.setAttribute('style', 'display: block');
+
+	// popup.setAttribute('style', 'display: block');
+};
+
+const close = () => {
+	console.log('jestem');
+	popup.setAttribute('style', 'display: none');
+};
+
+document.addEventListener('DOMContentLoaded', main);
 
 // function GetId() {
 //   let id = document.getElementById("valveId").value;

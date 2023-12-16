@@ -1,0 +1,21 @@
+.test {
+	width: 500px;
+	height: 500px;
+	background-color: #000;
+	margin: 0 0 5px 0;
+	/* margin: 0 0 20px 0; */
+}
+
+button {
+	padding: 10px 20px;
+	border: none;
+	background-color: tomato;
+	cursor: pointer;
+	border-radius: 6px;
+	transition: 0.3s;
+}
+
+button:hover {
+	background-color: gold;
+	box-shadow: 0 0 5px gold;
+}

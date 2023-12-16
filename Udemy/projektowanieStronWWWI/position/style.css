@@ -1,0 +1,46 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #333;
+	font-size: 36px;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+div {
+	margin: 0 auto;
+	width: 600px;
+	height: 200px;
+	border: 3px solid #000;
+}
+
+main {
+	margin-top: 200px;
+}
+
+.red {
+	background-color: tomato;
+}
+
+.blue {
+	position: relative;
+	margin: 20px auto;
+	background-color: royalblue;
+}
+
+.green {
+	background-color: greenyellow;
+}
+
+.gold {
+	position: absolute;
+	top: 40px;
+	left: 240px;
+	width: 120px;
+	height: 120px;
+	background-color: gold;
+}
