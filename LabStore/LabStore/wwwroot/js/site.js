@@ -11,7 +11,8 @@ const URL = 'http://localhost:5000/api/Valves';
 let formEl;
 let editBtn;
 let popup;
-let closePopup;
+let closeBtn;
+let editValves = document.querySelector('.editValves');
 
 const main = () => {
 	prepareDOMElements();
@@ -25,7 +26,7 @@ const prepareDOMElements = () => {
 	formEl = document.querySelector('.valveForm');
 	editBtn = document.querySelectorAll('.editBtn');
 	popup = document.querySelector('.popup');
-	closePopup = document.querySelector('.x-mark');
+	closeBtn = document.querySelector('.x-mark');
 };
 
 const prepareDOMEvents = () => {
@@ -33,7 +34,13 @@ const prepareDOMEvents = () => {
 		inputs[i].addEventListener('focus', focusInput);
 		inputs[i].addEventListener('blur', blurInput);
 	}
-	getValves.addEventListener('click', getValvesList, { once: true });
+	getValves.addEventListener(
+		'click',
+		(x) => {
+			getValvesList(valvesList);
+		},
+		{ once: true }
+	);
 	formEl.addEventListener('submit', addNewValve);
 	valvesList.addEventListener('click', checkClick);
 	popup.addEventListener('click', checkClick);
@@ -47,7 +54,7 @@ const blurInput = (e) => {
 	e.target.style.backgroundColor = 'transparent';
 };
 
-const getValvesList = () => {
+const getValvesList = (list) => {
 	fetch(URL, {
 		method: 'GET',
 	})
@@ -59,22 +66,24 @@ const getValvesList = () => {
 				elementsArray = Object.values(element);
 				console.log(elementsArray);
 
-				addToList(elementsArray);
+				addToList(elementsArray, list);
 			});
 		});
 };
 
-const addToList = (elementsArray) => {
+const addToList = (elementsArray, list) => {
 	let liElement = document.createElement('li');
 	let inputs = document.createElement('div');
 
+	inputs.classList.add('valve');
+
 	for (let i = 0; i < elementsArray.length; i++) {
-		let input = document.createElement('span');
-		input.textContent = elementsArray[i];
+		let input = document.createElement('input');
+		input.value = elementsArray[i];
 
 		inputs.appendChild(input);
 		liElement.appendChild(inputs);
-		valvesList.appendChild(liElement);
+		list.appendChild(liElement);
 	}
 
 	createToolArea(liElement);
@@ -119,20 +128,28 @@ const checkClick = (e) => {
 	if (e.target.matches('.editBtn')) {
 		edit(e);
 	} else if (e.target.matches('.closePopup')) {
-		close(e);
+		closePopup(e);
 	}
 };
 
 const edit = (e) => {
-	// test = e.target.closest('li');
 	popup.setAttribute('style', 'display: block');
-
-	// popup.setAttribute('style', 'display: block');
+	editValve(e);
 };
 
-const close = () => {
-	console.log('jestem');
+const editValve = (e) => {
+	liElements = e.target.closest('li').firstChild.querySelectorAll('input');
+	liElements.forEach((element) => {
+		let editInput = document.createElement('input');
+		editInput.value = element.value;
+		editValves.appendChild(editInput);
+	});
+};
+
+const closePopup = () => {
 	popup.setAttribute('style', 'display: none');
+	oldData = editValves.querySelectorAll('input'); // czyszczenie popupa
+	oldData.forEach((element) => element.remove());
 };
 
 document.addEventListener('DOMContentLoaded', main);
