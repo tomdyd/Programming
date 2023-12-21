@@ -6,13 +6,14 @@
 
 let inputs;
 let getValves;
-let valvesList;
+let dataList;
 const URL = 'http://localhost:5000/api/Valves';
 let formEl;
 let editBtn;
 let popup;
 let closeBtn;
 let editValves = document.querySelector('.editValves');
+let dataTable;
 
 const main = () => {
 	prepareDOMElements();
@@ -22,11 +23,12 @@ const main = () => {
 const prepareDOMElements = () => {
 	inputs = document.querySelectorAll('input');
 	getValves = document.querySelector('.getValves');
-	valvesList = document.querySelector('.valvesList');
+	dataList = document.querySelector('.valvesList');
 	formEl = document.querySelector('.valveForm');
 	editBtn = document.querySelectorAll('.editBtn');
 	popup = document.querySelector('.popup');
 	closeBtn = document.querySelector('.x-mark');
+	// dataTable = document.querySelector('.dataTable');
 };
 
 const prepareDOMEvents = () => {
@@ -36,13 +38,13 @@ const prepareDOMEvents = () => {
 	}
 	getValves.addEventListener(
 		'click',
-		(x) => {
-			getValvesList(valvesList);
+		() => {
+			getValvesList(dataList);
 		},
 		{ once: true }
 	);
 	formEl.addEventListener('submit', addNewValve);
-	valvesList.addEventListener('click', checkClick);
+	dataList.addEventListener('click', checkClick);
 	popup.addEventListener('click', checkClick);
 };
 
@@ -62,31 +64,46 @@ const getValvesList = (list) => {
 			return res.json();
 		})
 		.then((data) => {
-			data.forEach((element) => {
-				elementsArray = Object.values(element);
-				console.log(elementsArray);
-
-				addToList(elementsArray, list);
+			data.forEach((x) => {
+				array = [
+					(index = x._index),
+					(name = x._fullName),
+					(supplier = x._supplier),
+					(acceptanceDate = x._acceptanceDate),
+					(expiriationDate = x._expiriationDate),
+					(amount = x._amount),
+					(storagePlace = x._storagePlace),
+					(tubeLength = x._tubeLength),
+					(destiny = x._destiny),
+				];
+				addToList(array, list);
 			});
 		});
 };
 
-const addToList = (elementsArray, list) => {
+const addToList = (dataValuesArray, list) => {
 	let liElement = document.createElement('li');
-	let inputs = document.createElement('div');
+	let dataList = document.createElement('ul');
+	let container = document.createElement('div');
 
-	inputs.classList.add('valve');
+	dataList.classList.add('dataList');
+	container.classList.add('container');
 
-	for (let i = 0; i < elementsArray.length; i++) {
-		let input = document.createElement('input');
-		input.value = elementsArray[i];
+	for (let i = 0; i < dataValuesArray.length; i++) {
+		let dataValue = document.createElement('p');
+		let liParameter = document.createElement('li');
 
-		inputs.appendChild(input);
-		liElement.appendChild(inputs);
-		list.appendChild(liElement);
+		dataValue.textContent = dataValuesArray[i];
+
+		liParameter.appendChild(dataValue);
+		dataList.appendChild(liParameter);
 	}
 
-	createToolArea(liElement);
+	container.appendChild(dataList);
+	liElement.appendChild(container);
+	list.appendChild(liElement);
+
+	createToolArea(container);
 };
 
 const createToolArea = (newElement) => {
