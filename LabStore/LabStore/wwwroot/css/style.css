@@ -1,216 +1,219 @@
 ﻿* {
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
-	font-size: 0.5vw;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 0.5vw;
 }
 
 body {
-	background-color: rgba(128, 128, 128);
-	color: #fff;
+  background-color: rgba(128, 128, 128);
+  color: #fff;
 }
 
 .form {
-	position: relative;
-	left: 25%;
-	width: 50%;
-	padding: 30px;
-	background: linear-gradient(345deg, royalblue, rgb(117, 140, 209));
-	border-radius: 30px;
+  position: relative;
+  left: 25%;
+  width: 50%;
+  padding: 30px;
+  background: linear-gradient(345deg, royalblue, rgb(117, 140, 209));
+  border-radius: 30px;
 }
 
 fieldset {
-	border: none;
+  border: none;
 }
 
 fieldset {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: auto;
 }
 
 input {
-	width: 70%;
-	padding: 10px;
-	font-size: 2em;
-	text-align: center;
-	color: #fff;
-	background-color: transparent;
-	border: 2px solid #fff;
-	border-radius: 8px;
+  width: 70%;
+  padding: 10px;
+  font-size: 2em;
+  text-align: center;
+  color: #fff;
+  background-color: transparent;
+  border: 2px solid #fff;
+  border-radius: 8px;
 }
 
 input::placeholder {
-	color: #fff;
+  color: #fff;
 }
 
 label {
-	margin: 20px 0 10px 0;
-	font-size: 2em;
+  margin: 20px 0 10px 0;
+  font-size: 2em;
 }
 
 .form-submit-btn {
-	width: 300px;
-	height: 50px;
-	margin: 30px 0 0 0;
-	border-radius: 5px;
-	border: 2px solid #fff;
-	transition: 0.3s;
-	color: #fff;
-	background-color: transparent;
-	font-size: 2em;
+  width: 300px;
+  height: 50px;
+  margin: 30px 0 0 0;
+  border-radius: 5px;
+  border: 2px solid #fff;
+  transition: 0.3s;
+  color: #fff;
+  background-color: transparent;
+  font-size: 2em;
 }
 
 button:hover {
-	background-color: rgb(72, 89, 138);
+  background-color: rgb(72, 89, 138);
 }
 
-.getValves {
-	position: relative;
-	width: 200px;
-	height: 50px;
-	justify-content: center;
-	font-size: 2em;
+.getValves,
+.getRawMaterials {
+  position: relative;
+  width: 200px;
+  height: 50px;
+  justify-content: center;
+  font-size: 2em;
 }
 
 .valvesList {
-	width: 100%;
+  width: 100%;
 }
 
 .valvesList div,
 li {
-	display: flex;
-	flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 .valvesList li {
-	/* padding: 10px; */
-	display: flex;
+  /* padding: 10px; */
+  display: flex;
 }
 
 .tools {
-	display: inline-block;
-	font-size: 50px;
+  position: relative;
+  left: 1.8vw;
+  display: inline-block;
+  font-size: 50px;
 }
 
 .tools button {
-	padding: 15px 10px;
-	border: none;
-	background-color: transparent;
-	cursor: pointer;
-	transition: background-color 0.3s;
+  padding: 15px 10px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  transition: background-color 0.3s;
 }
 
 .tools button:hover {
-	background-color: #fff;
+  background-color: #fff;
 }
 
 .fa-solid {
-	pointer-events: none;
-	font-size: 1.8vw;
+  pointer-events: none;
+  font-size: 1.8vw;
 }
 
 .popup {
-	display: none;
-	position: fixed;
-	left: 15%;
-	width: 70%;
-	height: 78vh;
-	bottom: 0;
-	background-color: royalblue;
+  display: none;
+  position: fixed;
+  left: 15%;
+  width: 70%;
+  height: 78vh;
+  bottom: 0;
+  background-color: royalblue;
 }
 
 .closePopup {
-	/* display: flex; */
-	justify-self: end;
-	position: relative;
-	padding: 10px 15px;
-	background-color: transparent;
-	border: none;
+  /* display: flex; */
+  justify-self: end;
+  position: relative;
+  padding: 10px 15px;
+  background-color: transparent;
+  border: none;
 }
 
 .valve {
-	display: block;
+  display: block;
 }
 
 .editValves {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .editValves input {
-	margin: 0 0 10px 0;
+  margin: 0 0 10px 0;
 }
 
 .container {
-	display: block;
-	width: 100%;
+  display: block;
+  width: 100%;
 }
 
 .dataList,
 .headersList {
-	display: flex;
-	width: 91%;
-	text-align: center;
+  display: flex;
+  width: 91%;
+  text-align: center;
 }
 
 .dataList li,
 .headersList li {
-	width: 12%;
-	align-items: center;
-	justify-content: center;
-	font-size: 1.8em;
-	border: 1px solid #000;
-	/* padding: 0.1vw; */
+  width: 12%;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8em;
+  border: 1px solid #000;
+  /* padding: 0.1vw; */
 }
 
 .headersList li {
-	padding: 1vw 0;
-	color: rgb(255, 225, 0);
+  padding: 1vw 0;
+  color: rgb(255, 225, 0);
 }
 
 .table {
-	margin-left: 4.5%;
+  margin-left: 4.5%;
 }
 
 .button-area {
-	text-align: center;
+  text-align: center;
 }
 
 .apply-btn,
 .cancel-btn,
 .delete-btn,
 .close-delete-window {
-	padding: 1vw 5vw;
-	margin: 20px 20px 0 20px;
-	font-size: 1.8vw;
-	border-radius: 5px;
-	border: 2px solid #fff;
-	transition: 0.3s;
-	color: #fff;
-	background-color: transparent;
-	font-size: 2em;
+  padding: 1vw 5vw;
+  margin: 20px 20px 0 20px;
+  font-size: 1.8vw;
+  border-radius: 5px;
+  border: 2px solid #fff;
+  transition: 0.3s;
+  color: #fff;
+  background-color: transparent;
+  font-size: 2em;
 }
 
 .nunu {
-	cursor: not-allowed;
+  cursor: not-allowed;
 }
 
 .delete-popup {
-	display: none;
-	position: fixed;
-	text-align: center;
-	left: 15%;
-	width: 70%;
-	height: 30vh;
-	bottom: 0;
-	background-color: royalblue;
+  display: none;
+  position: fixed;
+  text-align: center;
+  left: 15%;
+  width: 70%;
+  height: 30vh;
+  bottom: 0;
+  background-color: royalblue;
 }
 
 .delete-popup p {
-	padding: 40px;
-	font-size: 4em;
+  padding: 40px;
+  font-size: 4em;
 }

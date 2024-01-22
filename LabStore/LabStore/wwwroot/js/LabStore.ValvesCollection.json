@@ -1,0 +1,135 @@
+[
+  {
+    "_id": {
+      "$oid": "6584987c91793921c205ee49"
+    },
+    "_index": "AD300000",
+    "Name": "KHN S-21-12-T",
+    "_supplier": "KOH-I-NOOR",
+    "_acceptanceDate": {
+      "Year": 2023,
+      "Month": 12,
+      "Day": 14
+    },
+    "_expiriationDate": {
+      "Year": 2023,
+      "Month": 12,
+      "Day": 28
+    },
+    "_amount": 150,
+    "_storagePlace": "A01",
+    "_tubeLength": "150",
+    "Destiny": "FOAMES"
+  },
+  {
+    "_id": {
+      "$oid": "6585478b1278a97e2ddd54ce"
+    },
+    "_index": "AD300001",
+    "Name": "SUMMIT SV92",
+    "_supplier": "SUMMIT",
+    "_acceptanceDate": {
+      "Year": 2023,
+      "Month": 12,
+      "Day": 22
+    },
+    "_expiriationDate": {
+      "Year": 2025,
+      "Month": 12,
+      "Day": 22
+    },
+    "_amount": 150,
+    "_storagePlace": "A01",
+    "_tubeLength": "150",
+    "Destiny": "FOAMES"
+  },
+  {
+    "_id": {
+      "$oid": "658547571278a97e2ddd54cd"
+    },
+    "_index": "AD300002",
+    "Name": "AV 05 S-21-12-T",
+    "_supplier": "KOH-I-NOOR",
+    "_acceptanceDate": {
+      "Year": 2023,
+      "Month": 6,
+      "Day": 15
+    },
+    "_expiriationDate": {
+      "Year": 2025,
+      "Month": 6,
+      "Day": 15
+    },
+    "_amount": 200,
+    "_storagePlace": "B01",
+    "_tubeLength": "207",
+    "Destiny": "BODY SPRAY"
+  },
+
+  {
+    "_id": {
+      "$oid": "658548221278a97e2ddd54cf"
+    },
+    "_index": "AD300003",
+    "Name": "LINDAL",
+    "_supplier": "LINDAL",
+    "_acceptanceDate": {
+      "Year": 2023,
+      "Month": 4,
+      "Day": 9
+    },
+    "_expiriationDate": {
+      "Year": 2025,
+      "Month": 4,
+      "Day": 9
+    },
+    "_amount": 150,
+    "_storagePlace": "C01",
+    "_tubeLength": "100",
+    "Destiny": "FOAMES"
+  },
+  {
+    "_id": {
+      "$oid": "658548621278a97e2ddd54d0"
+    },
+    "_index": "AD300004",
+    "Name": "SUMMIT SV92 ADP",
+    "_supplier": "SUMMIT",
+    "_acceptanceDate": {
+      "Year": 2023,
+      "Month": 7,
+      "Day": 7
+    },
+    "_expiriationDate": {
+      "Year": 2025,
+      "Month": 7,
+      "Day": 7
+    },
+    "_amount": 100,
+    "_storagePlace": "A01",
+    "_tubeLength": "90",
+    "Destiny": "ANTIPERSPIRANT"
+  },
+  {
+    "_id": {
+      "$oid": "65854e251278a97e2ddd54d1"
+    },
+    "_index": "AD300005",
+    "Name": "APTAR",
+    "_supplier": "APTAR",
+    "_acceptanceDate": {
+      "Year": 2022,
+      "Month": 6,
+      "Day": 5
+    },
+    "_expiriationDate": {
+      "Year": 2024,
+      "Month": 6,
+      "Day": 5
+    },
+    "_amount": 50,
+    "_storagePlace": "B02",
+    "_tubeLength": "200",
+    "Destiny": "DRY SHAMPOO"
+  }
+]

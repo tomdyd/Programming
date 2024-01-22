@@ -10607,19 +10607,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Tomek\\.nuget\\packages\\": {}
+    "C:\\Users\\t.dyda\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Dane\\Programming\\LabStore\\LabStore\\LabStore.csproj",
+      "projectUniqueName": "C:\\Users\\t.dyda\\Documents\\Programming\\LabStore\\LabStore\\LabStore.csproj",
       "projectName": "LabStore",
-      "projectPath": "D:\\Dane\\Programming\\LabStore\\LabStore\\LabStore.csproj",
-      "packagesPath": "C:\\Users\\Tomek\\.nuget\\packages\\",
-      "outputPath": "D:\\Dane\\Programming\\LabStore\\LabStore\\obj\\",
+      "projectPath": "C:\\Users\\t.dyda\\Documents\\Programming\\LabStore\\LabStore\\LabStore.csproj",
+      "packagesPath": "C:\\Users\\t.dyda\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\t.dyda\\Documents\\Programming\\LabStore\\LabStore\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Tomek\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\t.dyda\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -10627,7 +10627,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -10682,7 +10681,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
