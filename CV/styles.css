@@ -126,7 +126,7 @@ img {
 }
 
 .experience h3 {
-  margin: 0 7% 0 7%;
+  margin: 3% 7% 3% 7%;
 }
 
 .experience ul {
@@ -139,6 +139,10 @@ img {
 
 .experience p {
   font-weight: bold;
+  margin: 2% 7% 2% 7%;
+}
+
+.education h3{
   margin: 2% 7% 2% 7%;
 }
 
